@@ -14,7 +14,7 @@ export default function Dashboard() {
             <div className={inter.className}>
 
             <Header/>
-            {/* <HotelSearchBar/> */}
+            <HotelSearchBar/>
             {/* <PopularDestinations/> */}
 
 
