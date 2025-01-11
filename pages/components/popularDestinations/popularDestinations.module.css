@@ -1,13 +1,167 @@
-.heading{
+.heading {
 
     color: #424242;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: 248px;
 
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 70px;
-margin-left: 240px;
+}
+
+.imageContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    /* border: 1px solid green; */
+}
+
+.boxContainer{
+
+    margin-left: 15.25px;
+    margin-right: 15.25px;
+    /* border: 1px solid blue; */
+}
+
+.iconContainer{
+    position: relative;
+    margin-right: 18px;
+}
+
+.icon{
+
+    position: absolute;    
+    margin-top: 90px;
+    margin-right: 5px;
+    /* display: flex; */
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center; */
+    /* border: 1px solid green; */
+    /* border: 1px solid #E0E0E0; */
+    /* border-radius: 25px; */
+}
+
+
+.icon2{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 95px;
+    /* border: 1px solid red; */
+}
+
+.firstImage{
+
+    border-radius: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.placeName {
+
+    color: #424242;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-left: 16px;
+    /* 130% */
+
+}
+
+.placeLocation {
+
+    color: #424242;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 16px;
+}
+
+.placeNameForNextThree {
+
+    color: #424242;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* padding-left: 15px; */
+    /* 130% */
+
+}
+
+.placeLocationForNextThree {
+
+    color: #424242;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* padding-left: 15px; */
+}
+
+.iconContainerLast{
+    position: relative;
+    /* border: 1px solid orange; */
+    /* margin-left: 65px; */
+    /* border: 1px solid purple; */
+}
+
+.iconLast{
+    position: absolute;    
+    margin-top: 98px;
+    margin-left: 318px
+}
+
+.icon2Last{
+    position: absolute;
+    margin-left: 326px;
+    margin-top: 105px;
+    /* border: 1px solid red; */
+}
+
+@media (max-width:600px){
+
+    .heading{
+        margin-left: 26px;
+        margin-top: 25px;
+    }
+
+    .imageContainer{
+        /* display: none; */
+        overflow: scroll;
+        margin-top: 21px;
+        margin-left: 9px;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin-right: 9px;
+        /* border: 1px solid black; */
+    }
+
+    .placeName{
+        padding-left: 0px;
+    }
+    .placeLocation{
+        padding-left: 0px;
+    }
+    .iconContainer,.iconContainerLast{
+        display: none;
+    }
 
 }

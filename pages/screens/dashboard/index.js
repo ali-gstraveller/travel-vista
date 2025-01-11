@@ -4,6 +4,10 @@ import { Inter } from 'next/font/google';
 import Header from "@/pages/components/header";
 import HotelSearchBar from "@/pages/components/hotelSearchBar";
 import PopularDestinations from '@/pages/components/popularDestinations';
+import PlanYourTrip  from '../../components/planYourTrip';
+import SoloTravel from '@/pages/components/soloTravel';
+import ExplorePopularHotel from '../../components/explorePopularHotel' ;
+import Footer from "@/pages/components/footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,9 +19,11 @@ export default function Dashboard() {
 
             <Header/>
             <HotelSearchBar/>
-            {/* <PopularDestinations/> */}
-
-
+            <PopularDestinations/>
+            <SoloTravel/>
+            <PlanYourTrip/>
+            <ExplorePopularHotel/>
+            <Footer/>
             </div>
         </div>
     )

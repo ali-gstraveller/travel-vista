@@ -1,0 +1,215 @@
+.planYourTrip{
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+}
+
+.imageSection{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.cool1{
+    border-radius: 40px;
+    margin-top: 70px;
+    object-fit: cover;
+    /* border: 1px solid green; */
+}
+.cool2{
+    border-radius: 40px;
+    margin-bottom: 148px;
+    object-fit: cover;
+}
+.textSection{
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.firstHeading{
+    /* border: 1px solid red; */
+    color: #FEBE43;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.secondHeading{
+    color: #212121;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.firstParagraph{
+    width: 600px;
+    height: 95px;
+    color: #424242;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.iconDiv{
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+.divCompartment{
+    /* border: 1px solid orange; */
+    margin-top: 75px;   
+}
+
+.firstIcon{
+    position: absolute;
+    /* border: 1px solid purple; */
+}
+
+.secondIcon{
+    position: absolute;
+    /* border: 1px solid red; */
+    margin: 26px 26px 26px 27px;
+    
+}
+
+.dcFirstHeading{
+    color: #424242;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 105px;
+}
+
+.dcFirstParagraph{
+    color: #424242;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 105px;
+    margin-top: 10px;
+    width: 350px;
+}
+
+.dcFirstHeading2{
+    color: #424242;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 105px;
+}
+
+.dcFirstParagraph2{
+    color: #424242;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 105px;
+    margin-top: 10px;
+    width: 350px;
+}
+
+.divCompartment2{
+    /* border: 1px solid orange; */
+    margin-top: 44px;   
+}
+
+@media (max-width:600px){
+    .planYourTrip{
+        /* display: none; */
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        /* border: 1px solid red; */
+    }
+    .textSection{
+        width: 442px;
+        /* border: 1px solid blue; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .firstHeading{
+        margin-left: 17px;
+    }
+
+    .secondHeading{
+        margin-top: 1px;
+        color: #212121;
+        font-size: 36px;
+        font-weight: 600;
+        margin-left: 17px;
+    }
+
+    .firstParagraph{
+        width: 390px;
+        margin-top: 10px;
+        color: #424242;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        height: 95px;
+        margin-left: 17px;
+        /* border: 1px solid purple; */
+    }
+
+    .iconDiv{
+        /* border: 1px solid red; */
+    }
+    .divCompartment{
+        margin-top: 54px;
+        padding-left: 17px;
+        /* border: 1px solid red; */
+    }
+    .dcFirstHeading{
+        margin-left: 101px;
+        /* border: 1px solid green; */
+    }
+    .dcFirstParagraph{
+        margin-top: 8px;
+        margin-left: 101px;
+        /* border: 1px solid purple; */
+    }
+    .divCompartment2{
+        margin-top: 36px;
+        /* margin-left: 17px; */
+        padding-left: 17px;
+        /* border: 1px solid red; */
+    }
+    .dcFirstHeading2{
+        /* margin-top: 36px; */
+        margin-left: 101px;
+        /* border: 1px solid green; */
+    }
+    .dcFirstParagraph2{
+        margin-top: 3px;
+        margin-left: 101px;
+        /* border: 1px solid purple; */
+    }
+    .cool1,.cool2{
+        width: 181px;
+        height: 363px;
+    }
+    .imageSection{
+        margin-top: 21px;
+        display: flex;
+        width: 100%;
+        /* border: 1px solid red; */
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+        /* justify-content: space-evenly; */
+    }
+}

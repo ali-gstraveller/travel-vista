@@ -1,0 +1,168 @@
+.body{
+        height: 120px;
+        background-color: #006E5E;
+        display: flex;
+        align-items: center;
+}
+
+.textBlock{
+        display: inline-block;
+        /* border: 1px solid yellow; */
+        margin-left: 240px;
+}
+
+.heading{
+        color: #FFF;
+        /* font-family: Inter; */
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+}
+
+.paragraph{
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+}
+
+.input{
+        height: 50px;
+        width: 500px;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 25px;
+        /* border: 1px solid yellow; */
+        margin-left: 275px;
+}
+
+.input::placeholder{
+        color: #9E9E9E;
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+}
+
+.subsDiv{
+        width: 150px;
+        height: 50px;
+        border-radius: 100px;
+        background: #FEBE43;
+        display: inline-block;
+        position: relative;
+        margin-left: 9px;
+}
+
+.subsDiv p{
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+        margin-left:23px; 
+        margin-top: 16px;
+        color: #FFF;
+        text-align: center;
+        /* font-family: Inter; */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        position: absolute;
+    }
+
+.subsDiv svg{
+    /* border: 1px solid purple; */
+        margin-top: 13px;
+        margin-left: 104px;
+}
+
+.mobileIcon{
+
+    display: none;
+
+}
+
+
+@media(max-width:600px){
+
+    .body{
+        height:226px ;
+        background-color: white;
+        width: 95%;
+        border-bottom: 1px solid #CCC;
+        margin-bottom: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textBlock{
+        /* border: 1px solid red; */
+        margin-left: 15px;
+        display: block;
+        width: 254px;
+        margin-top: 46px;
+    }
+
+    .input{
+        margin-top: 46px;
+        margin-left: 16px;
+        display: inline-block;        
+        width: 300px;
+        height: 50px;
+        border-radius: 100px;
+            /* padding: 25px; */
+        border: 1px solid #D9D9D9;
+        vertical-align: top;
+        
+    }
+
+    .input::placeholder{
+        color: #9E9E9E;
+        padding: 5px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+
+    .subsDiv{
+        margin-top: 46px;
+        margin-left: 0px;
+        display: inline-block;
+        background-color: #006E5E;
+    }
+
+    .heading{
+        color: #424242;
+        /* font-family: Inter; */
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    .paragraph{
+        display: none;
+    }
+
+    .pcIcon{
+        display: none;
+    }
+
+    .mobileIcon{
+        display: block;
+    }
+
+}
+
+
