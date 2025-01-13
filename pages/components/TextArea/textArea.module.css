@@ -1,0 +1,222 @@
+.flexContainer{
+
+    display: flex;
+    justify-content: space-between;
+    width: 1444px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.textArea{
+    /* background-color: orange; */
+    width: 380px;
+    /* height: 74px; */
+    /* border: 1px solid darkblue; */
+}
+
+.textArea p{
+
+    margin-top: 11px;
+    color: #424242;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.quickLinks h1{
+
+    color: #006E5E;
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.supportHeadingDiv{
+
+    /* border: 1px solid green; */
+
+}
+
+.GetInTouchDiv{
+
+    /* border: 1px solid darkolivegreen; */
+    margin-right: 25px;
+}
+
+.GetInTouchDiv h1{
+    color: #006E5E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* border: 1px solid black; */
+}
+
+.textArea p{
+
+    color: #424242;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+
+}
+
+.quickLinksh1{
+    color: #006E5E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.iconDiv{
+    position: relative;
+    /* border: 1px solid red;   */
+    margin-top: 18px; 
+}
+.phone{
+    position: absolute;
+    margin-top: 5px;
+}
+.phone2{
+    position: absolute;
+    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.paragraph{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #424242;
+    line-height: 24px;
+    margin-left:40px;
+    /* border: 1px solid orange; */
+}
+
+.iconHolder{
+
+    margin-top: 28px;
+}
+
+.supportHeading{
+
+    color: #006E5E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.supportUl li{
+
+    color: #424242;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #424242;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.supportUl{
+    color: #424242;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    color: #424242;
+/* font-family: Inter; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-position: inside;
+    margin-top: 29px;
+}
+
+
+.quickLinkstUl{
+    color: #424242;
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #424242;
+    line-height: 40px;
+    margin-top: 29px;
+    list-style-position: inside;
+}
+
+@media (max-width:600px){
+
+        .flexContainer{
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .textArea{
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .quickLinks{
+            margin-top: 51px;
+            /* border: 1px solid black; */
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .supportHeadingDiv{
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            /* border: 1px solid black; */
+        }
+
+        .GetInTouchDiv{
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            /* border: 1px solid black; */
+        }
+
+        .paragraph{
+            margin-left: 50px;
+        }
+
+         .phone{ 
+            margin-top: 5px;
+            /* border: 1px solid green; */
+        } 
+
+        .phone2{
+            /* border: 1px solid green; */
+            margin-top: 15px;
+        }
+
+
+}

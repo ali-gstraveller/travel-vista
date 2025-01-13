@@ -8,6 +8,8 @@ import PlanYourTrip  from '../../components/planYourTrip';
 import SoloTravel from '@/pages/components/soloTravel';
 import ExplorePopularHotel from '../../components/explorePopularHotel' ;
 import Footer from "@/pages/components/footer";
+import TextArea from "@/pages/components/TextArea"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +26,7 @@ export default function Dashboard() {
             <PlanYourTrip/>
             <ExplorePopularHotel/>
             <Footer/>
+            <TextArea/>
             </div>
         </div>
     )
