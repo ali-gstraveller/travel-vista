@@ -1,222 +1,194 @@
-.flexContainer{
+    .flexContainer{
 
-    display: flex;
-    justify-content: space-between;
-    width: 1444px;
-    /* border: 1px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-}
-.textArea{
-    /* background-color: orange; */
-    width: 380px;
-    /* height: 74px; */
-    /* border: 1px solid darkblue; */
-}
+        display: flex;
+        justify-content: space-between;
+        width: 1444px;
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    .textArea{
+        /* background-color: orange; */
+        width: 380px;
+        /* height: 74px; */
+        /* border: 1px solid darkblue; */
+    }
 
-.textArea p{
+    .textArea p{
 
-    margin-top: 11px;
-    color: #424242;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
+        margin-top: 11px;
+        color: #424242;
+        /* font-family: Inter; */
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
 
-}
+    }
 
-.quickLinks h1{
+    .GetInTouchDiv h1,.quickLinks h1,.supportHeading{
+        color: #006E5E;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        /* border: 1px solid black; */
+    }
 
-    color: #006E5E;
-    /* font-family: Inter; */
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    .quickLinkstUl{
+        color: #424242;
+        /* font-family: Inter; */
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        color: #424242;
+        line-height: 40px;
+        margin-top: 29px;
+        list-style-position: inside;
+        width: 96px;
+        /* border: 1px solid red; */
+    }
 
-}
+    .supportHeadingDiv{
 
-.supportHeadingDiv{
+        /* border: 1px solid green; */
+    }
 
-    /* border: 1px solid green; */
+    .supportUl{
+        margin-top: 29px;
+        /* border: 1px solid black ; */
+        width: 197px;
+    }
 
-}
+    .supportUl li{
 
-.GetInTouchDiv{
+        list-style-position: inside;
+        color: #424242;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        line-height: 38px;
+    }
 
-    /* border: 1px solid darkolivegreen; */
-    margin-right: 25px;
-}
+    .GetInTouchDiv{
 
-.GetInTouchDiv h1{
-    color: #006E5E;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    /* border: 1px solid black; */
-}
+        /* border: 1px solid darkolivegreen; */
+        margin-right: 25px;
+        width: 238px;
+    }
 
-.textArea p{
+    .iconHolder{
+        margin-top: 10px;
+        /* border: 1px solid black; */
+    }
 
-    color: #424242;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 142.857% */
-
-}
-
-.quickLinksh1{
-    color: #006E5E;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.iconDiv{
-    position: relative;
-    /* border: 1px solid red;   */
-    margin-top: 18px; 
-}
-.phone{
-    position: absolute;
-    margin-top: 5px;
-}
-.phone2{
-    position: absolute;
-    margin-left: 5px;
-    margin-left: 10px;
-    margin-top: 16px;
-}
-.paragraph{
-
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    color: #424242;
-    line-height: 24px;
-    margin-left:40px;
-    /* border: 1px solid orange; */
-}
-
-.iconHolder{
-
-    margin-top: 28px;
-}
-
-.supportHeading{
-
-    color: #006E5E;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.supportUl li{
-
-    color: #424242;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #424242;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 38px;
-}
-
-.supportUl{
-    color: #424242;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 38px;
-    color: #424242;
-/* font-family: Inter; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    list-style-position: inside;
-    margin-top: 29px;
-}
-
-
-.quickLinkstUl{
-    color: #424242;
-    /* font-family: Inter; */
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    color: #424242;
-    line-height: 40px;
-    margin-top: 29px;
-    list-style-position: inside;
-}
+    .iconDiv{
+        position: relative;
+        margin-top: 18px; 
+        /* border: 1px solid red; */
+    }
+    .phone{
+        position: absolute;
+        margin-top: 5px;
+    }
+    .phone2{
+        position: absolute;
+        margin-left: 5px;
+        margin-left: 10px;
+        margin-top: 16px;
+    }
+    .paragraph{
+        /* border: 1px solid purple; */
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        color: #424242;
+        line-height: 24px;
+        margin-left:40px;
+    }
 
 @media (max-width:600px){
 
-        .flexContainer{
-            flex-direction: column;
-            width: 90%;
-        }
+    .flexContainer{
+        flex-direction: column;
+        width: 95%;
+        margin-top: 48px;
+    }
 
-        .textArea{
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
-        }
-
-        .quickLinks{
-            margin-top: 51px;
-            /* border: 1px solid black; */
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
-        }
-
-        .supportHeadingDiv{
-            margin-top: 35px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
-            /* border: 1px solid black; */
-        }
-
-        .GetInTouchDiv{
-            margin-top: 40px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
-            /* border: 1px solid black; */
-        }
-
-        .paragraph{
-            margin-left: 50px;
-        }
-
-         .phone{ 
-            margin-top: 5px;
-            /* border: 1px solid green; */
-        } 
-
-        .phone2{
-            /* border: 1px solid green; */
-            margin-top: 15px;
-        }
+    .textArea{
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        /* border: 1px solid red; */
+    }
 
 
+    .quickLinks{
+        margin-top: 51px;
+        /* border: 1px solid black; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+    .quickLinkstUl{
+        /* border: 1px solid purple; */
+        margin-top: 16px;
+    }
+
+    .supportHeadingDiv{
+        margin-top: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        /* border: 1px solid black; */
+    }
+
+    .supportUl{
+
+        /* border: 1px solid red; */
+        margin-top: 17px;
+
+    }
+
+    .GetInTouchDiv{
+        /* border: 1px solid red; */
+        margin-top: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        /* border: 1px solid black; */
+    }
+
+    .GetInTouchDiv h1{
+        /* border: 1px solid red; */
+    }
+
+    .iconHolder{
+        /* border: 1px solid red; */
+        /* margin-top: 18px; */
+        /* margin-top: 28px; */
+
+    }
+
+    .iconDiv{
+        /* border: 1px solid green; */
+    }
+
+    .paragraph{
+        margin-left: 50px;
+        /* border: 1px solid red; */
+    }
+
+    .phone{ 
+        margin-top: 5px;
+        /* border: 1px solid green; */
+    } 
+
+    .phone2{
+        /* border: 1px solid green; */
+        margin-top: 15px;
+    }
 }
