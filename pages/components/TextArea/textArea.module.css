@@ -27,7 +27,7 @@
 
     }
 
-    .GetInTouchDiv h1,.quickLinks h1,.supportHeading{
+    .GetInTouchDiv h1,.quickLinks h1 ,.supportSection h1 {
         color: #006E5E;
         font-size: 20px;
         font-style: normal;
@@ -36,7 +36,7 @@
         /* border: 1px solid black; */
     }
 
-    .quickLinkstUl{
+     .quickLinks ul{
         color: #424242;
         /* font-family: Inter; */
         font-size: 14px;
@@ -50,19 +50,15 @@
         /* border: 1px solid red; */
     }
 
-    .supportHeadingDiv{
+    .supportSection{
 
         /* border: 1px solid green; */
     }
 
-    .supportUl{
+    .supportSection ul{
         margin-top: 29px;
         /* border: 1px solid black ; */
         width: 197px;
-    }
-
-    .supportUl li{
-
         list-style-position: inside;
         color: #424242;
         font-size: 14px;
@@ -133,12 +129,12 @@
         width: 95%;
     }
 
-    .quickLinkstUl{
+    .quickLinks ul{
         /* border: 1px solid purple; */
         margin-top: 16px;
     }
 
-    .supportHeadingDiv{
+    .supportSection{
         margin-top: 22px;
         margin-left: auto;
         margin-right: auto;
@@ -146,7 +142,7 @@
         /* border: 1px solid black; */
     }
 
-    .supportUl{
+    .supportSection ul{
 
         /* border: 1px solid red; */
         margin-top: 17px;

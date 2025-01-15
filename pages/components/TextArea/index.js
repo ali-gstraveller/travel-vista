@@ -22,7 +22,7 @@ export default function TextArea(){
     </div>
     <div className={styles.quickLinks}>
             <h1>  Quick Links </h1>
-            <ul className={styles.quickLinkstUl}>
+            <ul>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Services</li>
@@ -30,9 +30,9 @@ export default function TextArea(){
                 <li>Contact Us</li>
             </ul>
     </div>
-    <div className={styles.supportHeadingDiv}>
-            <h1 className={styles.supportHeading} > Support </h1>
-            <ul className={styles.supportUl} >
+    <div className={styles.supportSection}>
+            <h1> Support </h1>
+            <ul  >
                     <li>Help Center</li>
                     <li>Our COVID-19 Response</li>
                     <li>Cancellation options</li>
