@@ -1,8 +1,11 @@
 .searchArea{
     width: 100%;
-    height: 120px;
+    height: 100px;
     background: linear-gradient(0deg, #006E5E 0%, #019D87 100%);
-    
+    position: relative;
+}
+.pattern{
+    position: absolute;
 }
 
 .staysDiv{
@@ -33,20 +36,22 @@
 }
 
 .searchBox{
-
+    position: absolute;
     border: 1px solid #E0E0E0;
     background: #FFF;
-    width: 1200px;
+    width: 62.5%;
     height: 80px;
     border-radius: 1500px;
-    margin-left: auto;
-    margin-right: auto;
     /* margin-top: 26px; */
     display: flex  ;
     align-items: center;
     align-self: center;
     align-content: center;
     justify-content: space-between;
+    left: 18.75%;
+    right: 18.75%;
+    top: 10%;
+    bottom: 10%;
 }
 
 .firstTextBox{
@@ -54,8 +59,9 @@
     align-items: center;
     align-self: center;
     align-content: center;
-    height: 40px;
+    height: 35px;
     margin-left: 39px;
+    /* border: 1px solid red; */
 }
 
 .textBox{
@@ -63,26 +69,28 @@
     display: inline-block;
     padding-top: 16px;
     margin-left: 10px;
+    /* border: 1px solid red; */
 }
 
 .whereTo{
+    /* margin-top: 2px; */
     color: #9E9E9E;
-    font-family: Inter;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border: none;
     display: inline-block;
+    /* border: 1px solid green; */
 }
 
 .karachiPakistan{
     color: #424242;
-    font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
+    /* border:1px solid purple;     */
 }
 
 .secondTextBox{
