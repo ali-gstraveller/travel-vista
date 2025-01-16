@@ -6,6 +6,7 @@
 }
 .pattern{
     position: absolute;
+    width: 100%;
 }
 
 .staysDiv{
@@ -43,11 +44,11 @@
     height: 80px;
     border-radius: 1500px;
     /* margin-top: 26px; */
-    display: flex  ;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-content: space-between;
+    display: flex ;
+        /* align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: space-between; */
     left: 18.75%;
     right: 18.75%;
     top: 10%;
@@ -55,32 +56,39 @@
 }
 
 .firstTextBox{
-    display: flex;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    height: 35px;
-    margin-left: 39px;
-    /* border: 1px solid red; */
+
+    position: relative;
+    height: 43.75%;
+    width: 36.083%;
+    margin-left: 3.25%;
+    /* border: 1px solid orange; */
+    margin-top: 25px;
+}
+
+.locationIcon{
+
+    position: absolute;
+    /* top: 25px; */
+    /* border: 1px solid red;    */
+    height: 100%;
+    width: 6.928406467%;
 }
 
 .textBox{
-    padding-bottom: -10px;
-    display: inline-block;
-    padding-top: 16px;
-    margin-left: 10px;
-    /* border: 1px solid red; */
+    position: absolute;
+    /* border: 1px solid purple   ; */
+    height: 100%;
+    /* top: 23px; */
+    left: 9.237875289%;
 }
 
 .whereTo{
-    /* margin-top: 2px; */
     color: #9E9E9E;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border: none;
-    display: inline-block;
     /* border: 1px solid green; */
 }
 
@@ -91,18 +99,45 @@
     font-weight: 400;
     line-height: normal;
     /* border:1px solid purple;     */
+    margin-top: 2px;
 }
 
 .secondTextBox{
     border-left: 1px solid #E0E0E0;
-    height: 40px;
     display: flex;
-    align-items: center;
-    align-self: center;
-    align-content: center;
+    width: 27.5%;
+    position: relative;
+    height: 43.75%;
+    margin-top: 25px;
 }
-.datesIcon,.profileIcon{
-    margin-left: 10px;
+
+.datesIcon, .profileIcon  {
+
+    position: absolute;
+    /* top: 5px ; */
+    left: 3.03%;
+    width: 9.09%;
+    height:100%;
+    /* border: 1px solid red; */
+}
+
+.textBox2{
+
+    position: absolute;
+    /* border: 1px solid orange; */
+    height: 100%;
+    /* top: 23px; */
+    left: 15.15%;   
+}
+
+
+.textBox3{
+
+    position: absolute;
+    /* border: 1px solid orange; */
+    height: 100%;
+    /* top: 23px; */
+    left: 15.51%;
 }
 
 .searchDiv{
@@ -114,7 +149,7 @@
     align-self: center;
     align-content: center;
     justify-content: center;
-    margin-right: 13px;
+    margin-right: 0.67%;
     background-color: #FEBE43;
 }
 
