@@ -9,33 +9,6 @@
     width: 100%;
 }
 
-.staysDiv{
-    padding-top: 31px;
-    text-align: center;
-}
-
-.stays{
-    color: #FEBE43;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-}
-
-.experiences{
-    margin-left: 25px;
-    color: #FFF;
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 28px;
-}
-
 .searchBox{
     position: absolute;
     border: 1px solid #E0E0E0;
@@ -43,12 +16,7 @@
     width: 62.5%;
     height: 80px;
     border-radius: 1500px;
-    /* margin-top: 26px; */
     display: flex ;
-        /* align-items: center;
-        align-self: center;
-        align-content: center;
-        justify-content: space-between; */
     left: 18.75%;
     right: 18.75%;
     top: 10%;
@@ -56,7 +24,7 @@
 }
 
 .firstTextBox{
-
+    
     position: relative;
     height: 43.75%;
     width: 36.083%;
@@ -68,18 +36,16 @@
 .locationIcon{
 
     position: absolute;
-    /* top: 25px; */
     /* border: 1px solid red;    */
     height: 100%;
     width: 6.928406467%;
 }
 
 .textBox{
-    position: absolute;
-    /* border: 1px solid purple   ; */
-    height: 100%;
-    /* top: 23px; */
-    left: 9.237875289%;
+    position: absolute ;
+    /* border: 1px solid purple ; */
+    height: 100% ;
+    left: 9.237875289% ;
 }
 
 .whereTo{
@@ -89,7 +55,7 @@
     font-weight: 400;
     line-height: normal;
     border: none;
-    /* border: 1px solid green; */
+    /* border: 1px solid green;    */
 }
 
 .karachiPakistan{
@@ -99,7 +65,7 @@
     font-weight: 400;
     line-height: normal;
     /* border:1px solid purple;     */
-    margin-top: 2px;
+    margin-top: 2px;    
 }
 
 .secondTextBox{
@@ -126,18 +92,7 @@
     position: absolute;
     /* border: 1px solid orange; */
     height: 100%;
-    /* top: 23px; */
     left: 15.15%;   
-}
-
-
-.textBox3{
-
-    position: absolute;
-    /* border: 1px solid orange; */
-    height: 100%;
-    /* top: 23px; */
-    left: 15.51%;
 }
 
 .searchDiv{
@@ -153,6 +108,15 @@
     background-color: #FEBE43;
 }
 
+.textBox3{
+
+    position: absolute;
+    /* border: 1px solid orange; */
+    height: 100%;
+    /* top: 23px; */
+    left: 15.51%;
+}
+
 @media (min-width:600px){
     .settings,.searchIcon,.anyWhere{
         display: none;
@@ -162,11 +126,54 @@
 
 @media (max-width:600px){
     .searchBox{
-            width: 90%;
-            height: 50px;
-        }
+        position: absolute;
+        width: 88.636363636%;
+        height: 50px;
+        left: 5.681818182%;
+        right: 5.681818182%;
+        top: 25px;
+        bottom: 25px;
+    }
+
+    .firstTextBox{
+
+        position: relative; 
+        height: 30px;
+        width: 78.97%;
+        /* border: 1px solid darkmagenta; */
+        margin-top:0px;
+        top:10px;
+        left: 3.333333333%;
+    }
+
     .secondTextBox,.karachiPakistan,.locationIcon,.searchDiv{
         display: none;
+    }
+
+    .searchIcon{
+        margin-left: 0;
+        /* border: 1px solid red; */
+        width: 7.692307692%;
+    }
+
+    .textBox{
+        padding-bottom: 0;
+        padding-top: 0;
+        display: inline-block;
+        width: 78.974358974%;
+        /* border: 1px solid green; */
+        left: 12.820512821%;
+    }
+
+    .whereTo{
+        color: #424242;
+        font-size: 15px;
+        /* border: 1px solid red; */
+        position: absolute;
+        height: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .anyWhere{
@@ -176,22 +183,20 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        /* border: 1px solid red; */
+        margin-top: -3px;
+        margin-bottom: 10px;
+        height: 12px;
     }
-    .whereTo{
-        color: #424242;
-        font-size: 15px;
+
+    .settings svg{
+        position: absolute;
+        /* border: 1px solid red; */
+        margin-top: 13px;
+        margin-bottom: 13px;
+        left: 90%;
+        right: 3.846153846%;
+        width: 6.153846154%;
     }
-    .textBox{
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-    .searchIcon{
-        margin-left: 0;
-    }
-    .firstTextBox{
-        margin-left: 15px;
-    }
-    .settings{
-        margin-right: 13px;
-    }
+
 }
