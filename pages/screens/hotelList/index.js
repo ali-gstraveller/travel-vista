@@ -10,6 +10,7 @@ import Footer from "@/pages/components/footer";
 import TextArea from "@/pages/components/TextArea"
 import PaymentSection from '../../components/paymentSection';
 import HotelSearchContinue from '../../components/hotelSearchContinue'
+import FilterArea from "@/pages/components/filterArea";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function HotelList() {
 
             <Header/>
             <HotelSearchContinue/>
+            <FilterArea/>
             {/* <Footer/>
             <TextArea/>
             <PaymentSection/> */}

@@ -1,0 +1,46 @@
+.body{
+
+    /* background-color: blue; */
+    /* display: flex; */
+    /* border: 1px solid green; */
+}
+
+.filterArea{
+    background-color: red;
+    margin-left: 12.5%;
+    width: 17.96875%;
+    height: auto;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.hotelList{
+
+    width: 55.98%;
+    /* background-color: blue; */
+    display: inline-block;
+    margin-left: 1.041666667%;
+    margin-top: 42px;   
+    margin-right: 12.5%;
+}
+
+.mapArea{
+    height: 8.24%;
+    border: 1px solid black;   
+    width: 100%;
+}
+
+/* .mapImage{
+    height: 43.47826087% ;
+    width: 100% ;
+} */
+
+.paragraph{
+
+    /* justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    border: 1px solid blue; */
+}

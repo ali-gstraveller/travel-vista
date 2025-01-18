@@ -25,12 +25,13 @@
 
 .firstTextBox{
     
-    position: relative;
-    height: 43.75%;
-    width: 36.083%;
-    margin-left: 3.25%;
+    position: relative ;
+    height: 43.75% ;
+    width: 36.083% ;
+    margin-left: 3.25% ;
     /* border: 1px solid orange; */
     margin-top: 25px;
+
 }
 
 .locationIcon{
