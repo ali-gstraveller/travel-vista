@@ -8,8 +8,13 @@ export default function FilterArea(){
     <div className={styles.filterArea}>    
         <div className={styles.mapSection}>     
             <Image  className={styles.mapImage}  src='/map.png' width="345" height="150"    />           
-            <p className={styles.paragraph} > View in a map </p>
+            <p className={styles.mapSectionParagraph} > View in a map </p>
         </div>
+
+        <div className={styles.compareProperties} >
+                <p> Compare properties  </p>
+        </div>
+
     </div>
     <div className={styles.hotelList}>
         <p>
