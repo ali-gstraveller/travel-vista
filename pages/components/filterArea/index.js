@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import styles from './filterArea.module.css';
 import Image from 'next/image';
 
 export default function FilterArea(){
+
+    const [toggleState, setToggleState] = useState(true);
+
     return(
 <div className={styles.body}>
     {/* <h1>hello</h1> */}
     <div className={styles.filterArea}>    
+
         <div className={styles.mapSection}>     
             <Image  className={styles.mapImage}  src='/map.png' width="345" height="150"    />           
             <p className={styles.mapSectionParagraph} > View in a map </p>
@@ -13,6 +18,12 @@ export default function FilterArea(){
 
         <div className={styles.compareProperties} >
                 <p> Compare properties  </p>
+
+                <label className={styles.switch}>
+                    <input type="radio" onClick={ ()=> setToggleState(!toggleState)}  checked={toggleState}    />
+                    <span className={ `${styles.slider} ${styles.round}` }  >     </span>
+                </label>
+
         </div>
 
         <p className={styles.searchText}> Search by property name </p>
