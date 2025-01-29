@@ -26,9 +26,32 @@ export default function FilterArea(){
             </svg>
             <input placeholder='e.g. Marriott' />
         </div>
-        <div className={styles.filterBy}>
-            {/* <h1> filter by </h1> */}
+        <div className={styles.filterSection}>
+            <h1 className={styles.mainHeading}> Filter by </h1>
+        <div className={styles.hr}>
         </div>
+
+        <form className={styles.form} >
+                 <input type="checkbox" id="html" name="fav_language" value="HTML"/>
+                 <label for="html">5 stars</label> <br/>
+                 <input type="checkbox" id="css" name="fav_language" value="CSS"/>
+                 <label for="css">Breakfast included
+                 </label><br/>
+                <input type="checkbox" id="javascript" name="fav_language" value="JavaScript"/>
+                 <label for="javascript">Hotel</label> <br/>
+                 <input type="checkbox" id="Wonderful" name="fav_language" value="Wonderful"/>
+                 <label for="Wonderful">Wonderful 9+ <br/>
+                 </label>
+                 <input type="checkbox" id="Clifton" name="fav_language" value="Clifton"/>
+                 <label for="Clifton"> Clifton    </label>
+                <br/>  
+                {/* <input type="submit" value="Submit" /> */}
+            </form>
+
+        </div>
+
+
+
     </div>
     {/* <div className={styles.hotelList}>
         <p>
