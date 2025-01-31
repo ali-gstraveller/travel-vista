@@ -31,24 +31,38 @@ export default function FilterArea(){
         <div className={styles.hr}>
         </div>
 
+        <h1 className={styles.popularFilters} > Popular filters </h1>
+
         <form className={styles.form} >
                  <input type="checkbox" id="html" name="fav_language" value="HTML"/>
                  <label for="html">5 stars</label> <br/>
                  <input type="checkbox" id="css" name="fav_language" value="CSS"/>
                  <label for="css">Breakfast included
-                 </label><br/>
+                 </label><br/>  
                 <input type="checkbox" id="javascript" name="fav_language" value="JavaScript"/>
                  <label for="javascript">Hotel</label> <br/>
                  <input type="checkbox" id="Wonderful" name="fav_language" value="Wonderful"/>
                  <label for="Wonderful">Wonderful 9+ <br/>
                  </label>
                  <input type="checkbox" id="Clifton" name="fav_language" value="Clifton"/>
-                 <label for="Clifton"> Clifton    </label>
+                 <label for="Clifton">Clifton    </label>
                 <br/>  
-                {/* <input type="submit" value="Submit" /> */}
             </form>
 
         </div>
+
+
+        <div>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+            <p> this is para text   </p>
+        </div>
+
 
 
 
