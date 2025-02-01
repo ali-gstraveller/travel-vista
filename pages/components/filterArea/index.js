@@ -50,22 +50,6 @@ export default function FilterArea(){
             </form>
 
         </div>
-
-
-        <div>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-            <p> this is para text   </p>
-        </div>
-
-
-
-
     </div>
     {/* <div className={styles.hotelList}>
         <p>

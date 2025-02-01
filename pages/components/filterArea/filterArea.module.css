@@ -226,15 +226,11 @@ input:checked+.slider:before {
     position: relative;
 }
 
-.form input:checked {
-    border: 0.078125vw solid #FEBE43;
-}
-
 .form input[type="checkbox"]:checked::after {
 
     content: '✔';
     font-size: 20px;
-    color: white;
+    color: #006E5E;
     position: absolute;
     background-repeat: no-repeat;
     text-align: center;
@@ -244,7 +240,7 @@ input:checked+.slider:before {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    background-color: #FEBE43;
+    /* background-color: #FEBE43; */
     /* background-color: #006E5E; */
 }
 
