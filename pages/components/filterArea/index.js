@@ -2,56 +2,80 @@ import { useState } from 'react';
 import styles from './filterArea.module.css';
 import Image from 'next/image';
 
-export default function FilterArea(){
+export default function FilterArea() {
     const [toggleState, setToggleState] = useState(true);
-    return(
-<div className={styles.body}>
-    {/* <h1>hello</h1> */}
-    <div className={styles.filterArea}>     
-        <div className={styles.mapSection}>     
-            <Image  className={styles.mapImage}  src='/map.png' width="345" height="150"    />           
-            <p className={styles.mapSectionParagraph} > View in a map </p>
-        </div> 
-        <div className={styles.compareProperties} >
-            <p> Compare properties  </p>
-            <label className={styles.switch}>
-                <input type="radio" onClick={ ()=> setToggleState(!toggleState)}  checked={toggleState}    />
-                <span className={ `${styles.slider} ${styles.round}` }  >     </span>
-            </label>
-        </div >
-           <p className={styles.searchText}> Search by property name </p>
-        <div className={styles.searchInput}>
-            <svg  className={styles.searchIcon}  xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                <path d="M24.4287 25.7208L16.5777 17.8695C15.9527 18.3856 15.234 18.7894 14.4215 19.0811C13.609 19.3728 12.7685 19.5186 11.8999 19.5186C9.76346 19.5186 7.95534 18.7789 6.47555 17.2995C4.99576 15.8202 4.25586 14.0124 4.25586 11.8764C4.25586 9.74057 4.99555 7.93224 6.47492 6.45141C7.9543 4.97078 9.762 4.23047 11.898 4.23047C14.0339 4.23047 15.8422 4.97036 17.323 6.45016C18.8037 7.92995 19.544 9.73807 19.544 11.8745C19.544 12.7672 19.3942 13.6198 19.0946 14.4323C18.7948 15.2448 18.3949 15.9515 17.8949 16.5523L25.7459 24.4033L24.4287 25.7208ZM11.8999 17.6439C13.5105 17.6439 14.8747 17.0849 15.9924 15.967C17.1103 14.8493 17.6693 13.4852 17.6693 11.8745C17.6693 10.2639 17.1103 8.89974 15.9924 7.78203C14.8747 6.66411 13.5105 6.10516 11.8999 6.10516C10.2893 6.10516 8.92513 6.66411 7.80742 7.78203C6.68951 8.89974 6.13055 10.2639 6.13055 11.8745C6.13055 13.4852 6.68951 14.8493 7.80742 15.967C8.92513 17.0849 10.2893 17.6439 11.8999 17.6439Z" fill="#424242"/>
-            </svg>
-            <input placeholder='e.g. Marriott' />
-        </div>
-        <div className={styles.filterSection}>
-            <h1 className={styles.mainHeading}> Filter by </h1>
-        <div className={styles.hr}>
-        </div>
-
-        <h1 className={styles.popularFilters} > Popular filters </h1>
-
-        <form className={styles.form} >
-                 <input type="checkbox" id="html" name="fav_language" value="HTML"/>
-                 <label for="html">5 stars</label> <br/>
-                 <input type="checkbox" id="css" name="fav_language" value="CSS"/>
-                 <label for="css">Breakfast included
-                 </label><br/>  
-                <input type="checkbox" id="javascript" name="fav_language" value="JavaScript"/>
-                 <label for="javascript">Hotel</label> <br/>
-                 <input type="checkbox" id="Wonderful" name="fav_language" value="Wonderful"/>
-                 <label for="Wonderful">Wonderful 9+ <br/>
-                 </label>
-                 <input type="checkbox" id="Clifton" name="fav_language" value="Clifton"/>
-                 <label for="Clifton">Clifton    </label>
-                <br/>  
-            </form>
-
-        </div>
-    </div>
-    {/* <div className={styles.hotelList}>
+    return (
+        <div className={styles.body}>
+            {/* <h1>hello</h1> */}
+            <div className={styles.filterArea}>
+                <div className={styles.mapSection}>
+                    <Image className={styles.mapImage} src='/map.png' width="345" height="150" />
+                    <p className={styles.mapParagraph} > View in a map </p>
+                </div>
+                <div className={styles.compareProperties} >
+                    <p> Compare properties  </p>
+                    <label className={styles.switch}>
+                        <input type="radio" onClick={() => setToggleState(!toggleState)} checked={toggleState} />
+                        <span className={`${styles.slider} ${styles.round}`}  >     </span>
+                    </label>
+                </div >
+                <p className={styles.searchText}> Search by property name </p>
+                <div className={styles.searchInput}>
+                    <svg className={styles.searchIcon} xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M24.4287 25.7208L16.5777 17.8695C15.9527 18.3856 15.234 18.7894 14.4215 19.0811C13.609 19.3728 12.7685 19.5186 11.8999 19.5186C9.76346 19.5186 7.95534 18.7789 6.47555 17.2995C4.99576 15.8202 4.25586 14.0124 4.25586 11.8764C4.25586 9.74057 4.99555 7.93224 6.47492 6.45141C7.9543 4.97078 9.762 4.23047 11.898 4.23047C14.0339 4.23047 15.8422 4.97036 17.323 6.45016C18.8037 7.92995 19.544 9.73807 19.544 11.8745C19.544 12.7672 19.3942 13.6198 19.0946 14.4323C18.7948 15.2448 18.3949 15.9515 17.8949 16.5523L25.7459 24.4033L24.4287 25.7208ZM11.8999 17.6439C13.5105 17.6439 14.8747 17.0849 15.9924 15.967C17.1103 14.8493 17.6693 13.4852 17.6693 11.8745C17.6693 10.2639 17.1103 8.89974 15.9924 7.78203C14.8747 6.66411 13.5105 6.10516 11.8999 6.10516C10.2893 6.10516 8.92513 6.66411 7.80742 7.78203C6.68951 8.89974 6.13055 10.2639 6.13055 11.8745C6.13055 13.4852 6.68951 14.8493 7.80742 15.967C8.92513 17.0849 10.2893 17.6439 11.8999 17.6439Z" fill="#424242" />
+                    </svg>
+                    <input placeholder='e.g. Marriott' />
+                </div>
+                <div className={styles.filterSection}>
+                    <div className={styles.filterBox}>
+                    </div>
+                    <h1 className={styles.mainHeading}> Filter by </h1>
+                    <div className={styles.hr}>
+                    </div>
+                    <h1 className={styles.popularFilters} > Popular filters </h1>
+                    <form className={styles.form} >
+                        <input type="checkbox" id="html" name="fav_language" value="HTML" /> <label for="html">5 stars</label>           <br />
+                        <input type="checkbox" id="css" name="fav_language" value="CSS" />
+                        <label for="css">Breakfast included
+                        </label><br />
+                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" />
+                        <label for="javascript">Hotel</label> <br />
+                        <input type="checkbox" id="Wonderful" name="fav_language" value="Wonderful" />
+                        <label for="Wonderful">Wonderful 9+ <br />
+                        </label>
+                        <input type="checkbox" id="Clifton" name="fav_language" value="Clifton" />
+                        <label for="Clifton">Clifton</label>
+                        <br />
+                    </form>
+                    <h1 className={styles.starRating}>Star rating</h1>
+                    <form className={styles.form2} >
+                        <input type="checkbox" id="html" name="fav_language" value="HTML" /> <label for="html">5</label>           <br />
+                        <input type="checkbox" id="css" name="fav_language" value="CSS" />
+                        <label for="css">4
+                        </label><br />
+                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" />
+                        <label for="javascript">3</label> <br />
+                        <br />
+                    </form>
+                    <div className={styles.PriceSection} >
+                        <h1 className={styles.Price} >  Price  </h1>
+                        <div className={styles.minBox} >
+                            <p className={styles.min} > Min </p> <br />
+                            <form>
+                                <input type='number' placeholder='$0' />
+                            </form>
+                        </div>
+                        <div className={styles.maxBox} >
+                            <p className={styles.max} > Max </p> <br />
+                            <form>
+                                <input type='number' placeholder='$0' />
+                            </form>
+                        </div>
+                    </div>
+                    <input type='range' min={1} max={100}    />
+                </div>
+            </div>
+            {/* <div className={styles.hotelList}>
         <p>
         What is Lorem Ipsum?
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -253,7 +277,7 @@ export default function FilterArea(){
         non-characteristic words etc.
         </p>
     </div> */}
-</div>
+        </div>
     )
 }
 
