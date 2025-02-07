@@ -175,7 +175,7 @@ input:checked+.slider:before {
 
 .filterSection {
     margin-top: 4.62962963vh;
-
+    /* border: 1px solid red; */
 }
 
 .mainHeading {
@@ -202,11 +202,22 @@ input:checked+.slider:before {
     line-height: normal;
 }
 
-.form {
+.form  {
     /* line-height: 3.703703704vh; */
     margin-top: 1.666666667vh;
     font-style: normal;
+    display: flex;
+     flex-direction: column;
 }
+
+.formItem:not(:first-child) {
+    margin-top:1.851851852vh;
+}
+.formItem{
+    display: flex;
+    margin-left: 1px;
+}
+
 
 .form label {
     margin-left: 0.520833333vw;
@@ -214,7 +225,9 @@ input:checked+.slider:before {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 3.703703704vh;
+    height:auto;
+    /* line-height: 3.703703704vh; */
+    /* border: 1px solid red; */
 }
 
 .form input[type="checkbox"],.form2 input[type="checkbox"]  {  
@@ -257,6 +270,8 @@ input:checked+.slider:before {
 
 .form2{
     margin-top: 1.666666667vh;
+    display: flex;
+     flex-direction: column;
 }
 
 .form2 label {
@@ -264,14 +279,13 @@ input:checked+.slider:before {
     color: #424242;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 3.703703704vh;
+    font-weight: 400; 
+    /* line-height: 3.703703704vh; */
 }
 
-.priceSection{
+.PriceSection{
     margin-top: 2.5vh;
-    border: 1px solid red ;
-    position: relative;
+    /* border: 1px solid red ; */
 }
 
 .Price{
@@ -287,6 +301,7 @@ input:checked+.slider:before {
 
 .maxBox{
     margin-left: 4.347826087%;
+    border: 1px solid red;
 }
 
 .minBox,.maxBox  {
@@ -325,9 +340,6 @@ input:checked+.slider:before {
     top: 53.333333333%;
 }   
 
-
-
-
 /* Chrome, Safari, Edge, Opera */
 .minBox input::-webkit-outer-spin-button,
 .minBox input::-webkit-inner-spin-button,
@@ -349,7 +361,7 @@ input:checked+.slider:before {
     border: 0px solid;
     font-size: 16px;
     background-color: transparent;
-    /* position: absolute; */
+    color: #424242;
 }
 
 .minBox input:focus  ,.maxBox input:focus  {
@@ -366,8 +378,14 @@ input:checked+.slider:before {
 }
 
 
+.minBox label ,.maxBox label{
+    color: #424242;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
-
+}
 
 @media (max-width:600px) {
 

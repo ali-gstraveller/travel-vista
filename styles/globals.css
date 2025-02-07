@@ -14,3 +14,29 @@ body {
   --checkbox-hover-color: #a3cef1;
   --checkbox-disabled-bg-color: #d9d9d9;
 }
+
+
+.title {
+  user-select: none;
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.388888889vh;
+  width: 17.69vw;
+}
+
+#original-range .range-slider__range{
+  background-color: #006E5E;
+}
+
+#original-range .range-slider__thumb{
+  background-color: #006E5E;
+}
+
+.range-slider {
+  width: 280px;
+  /* border: 1px solid orange; */
+  /* margin-top: 3.333333333vh; */
+  /* margin: 24px auto 0; */
+}

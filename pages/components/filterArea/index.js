@@ -1,9 +1,24 @@
 import { useState } from 'react';
 import styles from './filterArea.module.css';
 import Image from 'next/image';
+import RangeSlider from "react-range-slider-input";
+import "react-range-slider-input/dist/style.css";
 
 export default function FilterArea() {
     const [toggleState, setToggleState] = useState(true);
+    const [value, setValue] = useState([0, 500]);
+
+    const handleKeyDown = (event) => {
+        if (event.key === "+" || event.key === "-" || event.key === ".") {
+          event.preventDefault();
+        }
+      };
+
+      const handleInput = (event) => {
+        // Remove unwanted characters if pasted
+        setValue(event.target.value.replace(/[+\-\.]/g, ""));
+      };
+
     return (
         <div className={styles.body}>
             {/* <h1>hello</h1> */}
@@ -34,45 +49,64 @@ export default function FilterArea() {
                     </div>
                     <h1 className={styles.popularFilters} > Popular filters </h1>
                     <form className={styles.form} >
-                        <input type="checkbox" id="html" name="fav_language" value="HTML" /> <label for="html">5 stars</label>           <br />
-                        <input type="checkbox" id="css" name="fav_language" value="CSS" />
-                        <label for="css">Breakfast included
-                        </label><br />
-                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" />
-                        <label for="javascript">Hotel</label> <br />
-                        <input type="checkbox" id="Wonderful" name="fav_language" value="Wonderful" />
-                        <label for="Wonderful">Wonderful 9+ <br />
-                        </label>
-                        <input type="checkbox" id="Clifton" name="fav_language" value="Clifton" />
-                        <label for="Clifton">Clifton</label>
-                        <br />
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="5 stars" name="fav_language" value="5 stars" />
+                            <label for="5 stars"> 5 stars</label>
+                        </div>
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="Breakfast included" name="fav_language" value="Breakfast included" /> 
+                            <label for="Breakfast included"> Breakfast included </label>
+                        </div>
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="Hotel" name="fav_language" value="Hotel" />
+                            <label for="Hotel">Hotel</label> 
+                        </div>
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="Wonderful 9+" name="fav_language" value="Wonderful 9+" />
+                            <label for="Wonderful 9+">Wonderful 9+ <br /> </label>
+                        </div>
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="Clifton" name="fav_language" value="Clifton" />
+                            <label for="Clifton">Clifton</label>
+                        </div>
                     </form>
                     <h1 className={styles.starRating}>Star rating</h1>
                     <form className={styles.form2} >
-                        <input type="checkbox" id="html" name="fav_language" value="HTML" /> <label for="html">5</label>           <br />
-                        <input type="checkbox" id="css" name="fav_language" value="CSS" />
-                        <label for="css">4
-                        </label><br />
-                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" />
-                        <label for="javascript">3</label> <br />
-                        <br />
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="html" name="fav_language" value="HTML" /> 
+                            <label for="html">5</label>
+                        </div>        
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="css" name="fav_language" value="CSS" />
+                            <label for="css">4 </label>
+                        </div>
+                        <div className={styles.formItem}>
+                            <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" />
+                            <label for="javascript">3</label>
+                        </div>
                     </form>
                     <div className={styles.PriceSection} >
                         <h1 className={styles.Price} >  Price  </h1>
                         <div className={styles.minBox} >
                             <p className={styles.min} > Min </p> <br />
                             <form>
-                                <input type='number' placeholder='$0' />
+                            <label>$</label>
+                                <input type='number' min="1" max="500" onKeyDown={handleKeyDown} onInput={handleInput} value={value[0]} placeholder='0' onChange={(e) => { setValue([ e.target.value , value[1]  ]) }}     />
                             </form>
                         </div>
                         <div className={styles.maxBox} >
                             <p className={styles.max} > Max </p> <br />
                             <form>
-                                <input type='number' placeholder='$0' />
+                                <label>$</label>
+                                <input type='number' min="1" max="500" value={value[1]} placeholder='500' onChange={(e) => { setValue([ value[0] ,  e.target.value ]) }}  />
                             </form>
                         </div>
+                        <div className="title">Default
+                            <RangeSlider id="original-range"  className="original-range" value={value} step={1} min={0} max={500} onInput={(input) => { setValue(input) }} />
+                        </div>
                     </div>
-                    <input type='range' min={1} max={100}    />
+                    {/* <input type='range' value={price} min={1} max={500} onChange={(e) => setPrice(e.target.value)}  /> */}
+
                 </div>
             </div>
             {/* <div className={styles.hotelList}>
