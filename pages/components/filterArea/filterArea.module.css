@@ -338,6 +338,9 @@ input:checked+.slider:before {
     left: 6.060606061%;
     position: absolute;
     top: 53.333333333%;
+    /* border: 1px solid red; */
+    width: 93.939393939%;
+    bottom:18.333333333% ;
 }   
 
 /* Chrome, Safari, Edge, Opera */
@@ -346,7 +349,7 @@ input:checked+.slider:before {
 .maxBox input::-webkit-outer-spin-button,
 .maxBox input::-webkit-inner-spin-button{
   -webkit-appearance: none;
-  margin: 0;
+   margin: 0;
 }
 
 /* Firefox */
@@ -354,9 +357,9 @@ input:checked+.slider:before {
   -moz-appearance: textfield;
 }
 
-
 .minBox input ,.maxBox input {
-    width: 75%;
+    /* width: 87.878787879%; */
+    width:81.818181818%;
     font-weight: bold;
     border: 0px solid;
     font-size: 16px;
@@ -384,7 +387,6 @@ input:checked+.slider:before {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
 }
 
 @media (max-width:600px) {
@@ -398,4 +400,5 @@ input:checked+.slider:before {
     {
         display: none;
     }
+    
 }
