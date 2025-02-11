@@ -5,7 +5,6 @@
     margin-top: 3.73vh;
     display: inline-block;
     vertical-align: top;
-    /* border: 1px solid red; */
 }
 
 .mapSection {
@@ -131,7 +130,6 @@ input:checked+.slider:before {
     top: 1.296296296vh;
 }
 
-/* to be continued */
 
 .searchIcon {
     width: 8.695652174%;
@@ -162,7 +160,6 @@ input:checked+.slider:before {
 
 .searchInput input::placeholder {
     font-size: 100%;
-    /* width: fit-content ; */
 }
 
 .hotelList {
@@ -175,7 +172,6 @@ input:checked+.slider:before {
 
 .filterSection {
     margin-top: 4.62962963vh;
-    /* border: 1px solid red; */
 }
 
 .mainHeading {
@@ -193,6 +189,8 @@ input:checked+.slider:before {
     height: 0.092592593vh;
 }
 
+/* filter by menu */
+
 .popularFilters {
     margin-top: 2.5vh;
     font-size: 112.5%;
@@ -203,21 +201,20 @@ input:checked+.slider:before {
 }
 
 .form  {
-    /* line-height: 3.703703704vh; */
     margin-top: 1.666666667vh;
     font-style: normal;
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
 }
 
 .formItem:not(:first-child) {
     margin-top:1.851851852vh;
 }
+
 .formItem{
     display: flex;
     margin-left: 1px;
 }
-
 
 .form label {
     margin-left: 0.520833333vw;
@@ -226,8 +223,6 @@ input:checked+.slider:before {
     font-style: normal;
     font-weight: 400;
     height:auto;
-    /* line-height: 3.703703704vh; */
-    /* border: 1px solid red; */
 }
 
 .form input[type="checkbox"],.form2 input[type="checkbox"]  {  
@@ -240,6 +235,9 @@ input:checked+.slider:before {
     display: inline-block;
     position: relative;
 }
+
+
+/* filter by section checkbox tick */
 
 .form input[type="checkbox"]:checked::after,.form2 input[type="checkbox"]:checked::after {
 
@@ -255,9 +253,9 @@ input:checked+.slider:before {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    /* background-color: #FEBE43; */
-    /* background-color: #006E5E; */
 }
+
+/*  star rating section */
 
 .starRating {
     margin-top: 3.611111111vh;
@@ -271,7 +269,7 @@ input:checked+.slider:before {
 .form2{
     margin-top: 1.666666667vh;
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
 }
 
 .form2 label {
@@ -280,31 +278,37 @@ input:checked+.slider:before {
     font-size: 18px;
     font-style: normal;
     font-weight: 400; 
-    /* line-height: 3.703703704vh; */
 }
+
+                                    /* PRICE SECTION */
+
+/* outer box setting */
 
 .PriceSection{
     margin-top: 2.5vh;
-    /* border: 1px solid red ; */
 }
 
-.Price{
+    /* main heading */
 
+.Price{
     color: #424242;
     /* font-family: Inter; */
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
 }
+
+    /* maximum box */
 
 .maxBox{
     margin-left: 4.347826087%;
     border: 1px solid red;
 }
 
-.minBox,.maxBox  {
+    /* maximum/minimum box styling */
+
+.minBox,.maxBox{
     margin-top: 1.851851852vh;
     width: 47.826086957%;
     height: 5.555555556vh;
@@ -312,9 +316,9 @@ input:checked+.slider:before {
     border-radius: 0.260416667vw ;
     position: relative;
     display: inline-block;
-    /* background-color: lightblue; */
 }
 
+/* minimum/maximum box inner text(p) tag */
 
 .min,.max{
     position: absolute;
@@ -325,23 +329,18 @@ input:checked+.slider:before {
     left: 6.060606061%;
     top: 18.333333333%;
 } 
-
-/* .dollarSign{
-    position: absolute;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    left: 6.060606061%;
-} */
+ 
+/* form that displays/set minimum/maximum numbers */
 
 .minBox form  ,.maxBox form  {
     left: 6.060606061%;
     position: absolute;
     top: 53.333333333%;
-    /* border: 1px solid red; */
     width: 93.939393939%;
     bottom:18.333333333% ;
 }   
+
+/* to remove the up/down arrows of input type number field */
 
 /* Chrome, Safari, Edge, Opera */
 .minBox input::-webkit-outer-spin-button,
@@ -357,8 +356,9 @@ input:checked+.slider:before {
   -moz-appearance: textfield;
 }
 
+/*  minimum feiled styling */
+
 .minBox input ,.maxBox input {
-    /* width: 87.878787879%; */
     width:81.818181818%;
     font-weight: bold;
     border: 0px solid;
@@ -367,10 +367,14 @@ input:checked+.slider:before {
     color: #424242;
 }
 
+/* to remove borders onclick on input field  */
+
 .minBox input:focus  ,.maxBox input:focus  {
     border: 0px solid;
     outline: none;
 }
+
+/* input field placeholder styling */
 
 .minBox input::placeholder,.maxBox input::placeholder     {
     /* color: black; */
@@ -380,6 +384,7 @@ input:checked+.slider:before {
     line-height: normal;
 }
 
+/* labels for input field */
 
 .minBox label ,.maxBox label{
     color: #424242;
@@ -388,6 +393,39 @@ input:checked+.slider:before {
     font-weight: 600;
     line-height: normal;
 }
+
+                                    /* Guest Rating Section */
+
+/* outer box */
+
+.guestRating{
+    margin-top:4.62962963vh ;
+}
+
+/* heading */
+
+.guestRating .mainHeading{
+    color: #424242;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* form */
+
+.guestRating .form{
+        margin-top: 1.666666667vh;    
+}
+
+/* form input */
+
+.guestRating .form input[type="radio"]{
+
+    accent-color:#006E5E;
+
+}
+
 
 @media (max-width:600px) {
 

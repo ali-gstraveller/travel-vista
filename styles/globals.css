@@ -16,16 +16,7 @@ body {
 }
 
 #original-range{
-  margin-top:1.388888889vh ;
-}
-
-.title {
-  user-select: none;
-  color: #fff;
-  font-family: monospace;
-  font-weight: bold;
-  text-align: center;
-  width: 17.69vw;
+  margin-top:2.12962963vh ;
 }
 
 #original-range .range-slider__range{
@@ -34,11 +25,4 @@ body {
 
 #original-range .range-slider__thumb{
   background-color: #006E5E;
-}
-
-.range-slider {
-  width: 280px;
-  /* border: 1px solid orange; */
-  /* margin-top: 3.333333333vh; */
-  /* margin: 24px auto 0; */
 }

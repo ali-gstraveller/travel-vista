@@ -42,8 +42,6 @@ export default function FilterArea() {
                     <input placeholder='e.g. Marriott' />
                 </div>
                 <div className={styles.filterSection}>
-                    <div className={styles.filterBox}>
-                    </div>
                     <h1 className={styles.mainHeading}> Filter by </h1>
                     <div className={styles.hr}>
                     </div>
@@ -90,23 +88,44 @@ export default function FilterArea() {
                         <div className={styles.minBox} >
                             <p className={styles.min} > Min </p> <br />
                             <form>
-                            <label>$</label>
+                                <label>$</label>
                                 <input type='number' min="1" max="500" onKeyDown={handleKeyDown} onInput={handleInput} value={value[0]} placeholder='0' onChange={(e) => { setValue([ e.target.value , value[1]  ]) }}     />
                             </form>
                         </div>
                         <div className={styles.maxBox} >
                             <p className={styles.max} > Max </p> <br />
                             <form>
-                                <label>$</label>
+                                <label>$</label>    
                                 <input type='number' min="1" max="500" value={value[1]} placeholder='500' onChange={(e) => { setValue([ value[0] ,  e.target.value ]) }}  />
-                            </form>
+                            </form> 
                         </div>
-                        <div className="title">Default
+                        <div className="title">
                             <RangeSlider id="original-range"  className="original-range" value={value} step={1} min={0} max={500} onInput={(input) => { setValue(input) }} />
                         </div>
                     </div>
-                    {/* <input type='range' value={price} min={1} max={500} onChange={(e) => setPrice(e.target.value)}  /> */}
-
+                    <div className={styles.guestRating}>
+                            <h1 className={styles.mainHeading}> Guest rating </h1>
+                        <form className={styles.form} >
+                            <div className={styles.formItem}>
+                                <input type="radio" id="Any" name="guest_rating" value="Any" /> 
+                                <label for="Any">Any</label>
+                            </div>        
+                            <div className={styles.formItem}>
+                                <input type="radio" id="Wonderful_9+" name="guest_rating" value="Wonderful_9+" />
+                                <label for="Wonderful_9+">Wonderful 9+
+                                </label>
+                            </div>
+                            <div className={styles.formItem}>
+                                <input type="radio" id="Very good 8+" name="guest_rating" value="Very good 8+" />
+                                <label for="Very good 8+">Very good 8+</label>
+                            </div>
+                            <div className={styles.formItem}>
+                                <input type="radio" id="Very good 7+" name="guest_rating" value="Very good 7+" />
+                                <label for="Very good 7+">Very good 7+
+                                </label>
+                            </div>
+                         </form> 
+                    </div>
                 </div>
             </div>
             {/* <div className={styles.hotelList}>
