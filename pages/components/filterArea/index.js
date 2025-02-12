@@ -43,8 +43,8 @@ export default function FilterArea() {
                 </div>
                 <div className={styles.filterSection}>
                     <h1 className={styles.mainHeading}> Filter by </h1>
-                    <div className={styles.hr}>
-                    </div>
+                        <div className={styles.hr}>
+                        </div>
                     <h1 className={styles.popularFilters} > Popular filters </h1>
                     <form className={styles.form} >
                         <div className={styles.formItem}>

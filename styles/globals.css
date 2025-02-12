@@ -17,6 +17,7 @@ body {
 
 #original-range{
   margin-top:2.12962963vh ;
+  height: 5px;
 }
 
 #original-range .range-slider__range{
@@ -25,4 +26,6 @@ body {
 
 #original-range .range-slider__thumb{
   background-color: #006E5E;
+  height: 15px;
+  width: 15px;
 }

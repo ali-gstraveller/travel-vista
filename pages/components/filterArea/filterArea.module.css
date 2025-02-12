@@ -201,8 +201,7 @@ input:checked+.slider:before {
 }
 
 .form  {
-    margin-top: 1.666666667vh;
-    font-style: normal;
+    margin-top: 1.666666667vh ;
     display: flex;
     flex-direction: column;
 }
@@ -214,41 +213,43 @@ input:checked+.slider:before {
 .formItem{
     display: flex;
     margin-left: 1px;
+    align-items: center;
+    /* border: 1px solid red; */
 }
 
-.form label {
+.form label, .form2 label {
     margin-left: 0.520833333vw;
     color: #424242;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;   
     height:auto;
 }
 
 .form input[type="checkbox"],.form2 input[type="checkbox"]  {  
     appearance: none;
-    height: 20px;
-    width: 20px;
-    line-height: 1.851851852vh;
+    aspect-ratio: 1/1;
+    width: 1.041666667vw;
+    height: 1.041666667vw;
+    min-width: 16px;
+    min-height: 16px;
     border: 0.078125vw solid #9E9E9E;
     border-radius: 0.260416667vw;
     display: inline-block;
-    position: relative;
-}
-
+    position: relative;  
+} 
 
 /* filter by section checkbox tick */
 
 .form input[type="checkbox"]:checked::after,.form2 input[type="checkbox"]:checked::after {
-
     content: '✔';
-    font-size: 20px;
+    font-size: clamp( 100%,0.833333333vw,24px );
     color: #006E5E;
     position: absolute;
     background-repeat: no-repeat;
     text-align: center;
-    justify-content: center;
-    line-height: 1.851851852vh;
+    align-content:center;
+    font-weight:bolder; 
     left: 0px;
     right: 0px;
     top: 0px;
@@ -270,14 +271,6 @@ input:checked+.slider:before {
     margin-top: 1.666666667vh;
     display: flex;
     flex-direction: column;
-}
-
-.form2 label {
-    margin-left: 0.520833333vw;
-    color: #424242;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400; 
 }
 
                                     /* PRICE SECTION */
@@ -416,16 +409,20 @@ input:checked+.slider:before {
 
 .guestRating .form{
         margin-top: 1.666666667vh;    
-}
+}   
 
 /* form input */
 
 .guestRating .form input[type="radio"]{
 
     accent-color:#006E5E;
-
+    width: 1.041666667vw;
+    height: 1.041666667vw;
+    min-width: 16px;
+    min-height:16px ;
+    border: 1.5px;
+    border-radius: 100px;
 }
-
 
 @media (max-width:600px) {
 
@@ -434,7 +431,7 @@ input:checked+.slider:before {
     .searchInput,
     .searchText,
     .mainHeading,
-    .hr,.popularFilters,.form
+    .hr,.filterSection
     {
         display: none;
     }
