@@ -23,6 +23,21 @@ export default function FilterArea() {
         <div className={styles.body}>
             {/* <h1>hello</h1> */}
             <div className={styles.filterArea}>
+                <div className={styles.filterBoxMobile}>
+                   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M10.7832 21V15.25H12.45V17.3H21V18.9668H12.45V21H10.7832ZM3 18.9668V17.3H9.11675V18.9668H3ZM7.45 14.8668V12.8333H3V11.1667H7.45V9.1H9.11675V14.8668H7.45ZM10.7832 12.8333V11.1667H21V12.8333H10.7832ZM14.8833 8.75V3H16.55V5.03325H21V6.7H16.55V8.75H14.8833ZM3 6.7V5.03325H13.2168V6.7H3Z" fill="#424242"/>
+                        </svg>
+                    
+                    <p> Filter </p>
+                </div>
+                <div className={styles.sortByRecommended}>
+                    <p>Sort by</p>
+                    <p> Recommended </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.50014 9.16995L11.7585 5.91162L12.5049 6.65803L8.50014 10.6628L4.4954 6.65803L5.24181 5.91162L8.50014 9.16995Z" fill="#757575"/>
+                    </svg>
+                </div>
                 <div className={styles.mapSection}>
                     <Image className={styles.mapImage} src='/map.png' width="345" height="150" />
                     <p className={styles.mapParagraph} > View in a map </p>
