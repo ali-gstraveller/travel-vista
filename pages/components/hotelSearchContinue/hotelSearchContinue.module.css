@@ -141,7 +141,6 @@
         position: relative; 
         height: 30px;
         width: 78.97%;
-        /* border: 1px solid darkmagenta; */
         margin-top:0px;
         top:10px;
         left: 3.333333333%;
@@ -153,7 +152,6 @@
 
     .searchIcon{
         margin-left: 0;
-        /* border: 1px solid red; */
         width: 7.692307692%;
     }
 
@@ -162,7 +160,6 @@
         padding-top: 0;
         display: inline-block;
         width: 78.974358974%;
-        /* border: 1px solid green; */
         left: 12.820512821%;
     }
 

@@ -67,11 +67,7 @@
     margin-right: auto;
     justify-content: center;
     flex-wrap: wrap;
-    /* height: 500px; */
-    /* background-color: lightblue; */
-    /* border: 1px solid yellow; */
-    /* margin-left: 245px; */
-    /* height: 1223px; */
+
 }
 
 .imageComponent{
@@ -150,16 +146,13 @@
         height: 630px;
     }
     .div1{
-        /* border: 1px solid red; */
         margin-left: 16px;
         width: 90%;
     }
 
     .heading{
         padding-top: 50px;
-        /* border: 1px solid purple; */
         color: #121511;
-/* font-family: Inter; */
         font-size: 24px;
         font-style: normal;
         font-weight: 600;
