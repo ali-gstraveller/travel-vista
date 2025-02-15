@@ -500,6 +500,12 @@ input:checked+.slider:before {
     transform: translate(-50%, -50%) scale(1);
 }
 
+                            /* hotel list info section. */
+
+.hotelList{
+    /* border: 1px solid red; */
+}
+
 .hotelList .InfoPane .textArea {
     /* border: 1px solid red; */
     float: left;
@@ -531,11 +537,16 @@ input:checked+.slider:before {
     border: 1px solid #D9D9D9;
     float: right;
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 .hotelList .InfoPane .button p:nth-child(1){
-    position: absolute;
+    /* position: absolute; */
     color: #9E9E9E;
     font-size: 15px;
     font-style: normal;
@@ -543,9 +554,11 @@ input:checked+.slider:before {
     line-height: normal;
     /* border: 1px solid orange; */
     width: fit-content;
-    left: 5%;
-    top:20%;
+    /* text-align: center; */
+    /* left: 5%; */
+    /* top:20%; */
     height: 30%;
+    margin-left: 5%;
 }
 
 .hotelList .InfoPane .button p:nth-child(2){
@@ -554,14 +567,140 @@ input:checked+.slider:before {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    left: 5%;
-    position: absolute;
+    width: fit-content;
+    /* left: 5%; */
+    /* position: absolute; */
     /* top: 53.333333333%; */
     height: 30%;
     /* border: 1px solid orange; */
     line-height: normal;
     bottom: 16.666666667%;
+    margin-left: 5%;
 }
+
+.hotelList .signInAlertBox{
+    margin-top: 3.333333333vh;
+    width: 100%;
+    background-color: #FEBE43;
+    height: 7.407407407vh;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.signInAlertBox p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: fit-content;
+    /* border: 1px solid green; */
+    margin-left: 1.860465116%;
+    float: left;
+    height: 40px;
+    align-content: center;
+    /* display: inline-block; */
+} 
+
+.signInAlertBox .signInButton{
+    background: #006E5E;
+    width: 90px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+    float: right;
+    margin-right: 1.674418605%;
+    /* display: inline-block; */
+}
+.signInAlertBox .signInButton p{
+    color: #FFF;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    /* width: 46.666666667%; */
+    left: 12.222222222%;
+    top: 30%;
+    height: 40%;
+
+}
+
+.signInAlertBox .signInButton svg{
+    width: 33.33%;
+    height: auto;
+    position: absolute;
+    left: 61.111111111%;
+    top: 12.5%;
+}
+
+                                /* hotel Display Section */
+
+.hotelOne{
+    margin-top: 2.777777778vh;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    height: 23.148148148vh;
+}
+
+.imageContainer{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 32.093023256%;
+    height: 23.148148148vh;
+    float: left;
+}
+
+.hotelPhoto{
+    position: absolute;
+    width: 100%;
+    height: 23.148148148vh;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.svgContainer{
+    position: relative;
+    /* position: absolute; */
+    /* border: 1px solid purple; */
+    /* right:    2.898550725%; */
+    right: 10%;
+    top: 4%;
+    left: 86.956521739%;
+    width: 1.822916667vw;
+    height: 1.822916667vw;
+}
+
+.imageContainer svg:nth-child(1){
+    fill: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer svg:nth-child(2){
+    fill: #006E5E;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 20%;
+    left: 14.285714286%;    
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+
+.hotelOne .hotelInfo {
+    color: #424242;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    /* border: 1px solid orange ; */
+    position: relative;
+    /* width: 302px; */
+}  
 
 
 /* filter and sort buttons hided on mobile */
