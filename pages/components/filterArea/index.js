@@ -214,6 +214,16 @@ export default function FilterArea() {
                                     <li>Free cancellation</li>
                                     <li>No prepayment needed - pay at the property</li>
                                 </ul>
+                                <p className={styles.ratingComment} >Good</p>
+                                <p className={styles.totalReviews} >193 reviews</p>
+                                <div className={styles.ratingBox}>
+                                    <p className={styles.totalRating}>7.7</p>
+                                </div>
+                                <div className={styles.fareInformation}>
+                                    <p className={styles.stayerType} >1 night, 2 adults, 1 child</p>
+                                    <p className={styles.charges} > PKR 14,400 </p>
+                                    <p className={styles.additionalSurcharge} > +PKR 2,160 taxes and charges </p>    
+                                </div>
                      </div>
                 </div>
             </div>

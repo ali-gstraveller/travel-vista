@@ -598,6 +598,7 @@ input:checked+.slider:before {
     margin-right: 1.674418605%;
     /* display: inline-block; */
 }
+
 .signInAlertBox .signInButton p{
     color: #FFF;
     text-align: right;
@@ -634,7 +635,7 @@ input:checked+.slider:before {
     position: relative;
     /* border: 1px solid red; */
     width: 32.093023256%;
-    height: 100%;
+    height: 23.148148148vh;
     float: left;
 }
 
@@ -685,7 +686,7 @@ input:checked+.slider:before {
     /* position: absolute; */
     position: relative;
     width: 67.906976744%;
-    height: 100%;
+    height: 23.148148148vh;
     /* border: 1px solid red; */
     float: right;
 }  
@@ -756,7 +757,7 @@ input:checked+.slider:before {
     margin-left: 2.739726027%;
 }
 
-.hotelOne .hotelInfo .impPoints{
+.hotelOne .hotelInfo .impPoints {
     position: absolute;
     top: 69.6%;
     color: #FEBE43;
@@ -766,6 +767,105 @@ input:checked+.slider:before {
     margin-left: 3.698630137%;
     list-style-position: inside;
     /* border: 1px solid green; */
+}
+
+.ratingComment{
+    position: absolute;
+    color: #424242;
+    font-size: 1.203703704vmin;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* left: 85.890410959%; */
+    right: 9.452054795%;
+    top: 9.2%;
+
+}
+
+.totalReviews{
+    position: absolute;
+    font-size: 1.018518519vmin;
+    color: #424242;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    right: 8.904109589%;
+    /* left: 82.602739726%; */
+    top:16.4% ;
+}
+
+.ratingBox{
+    position: absolute;
+    background: #006E5E;
+    width: 3.240740741vmin;
+    left: 92.465753425%;
+    top: 8%;
+    aspect-ratio: 1 / 1;
+    /* border: 1px solid red; */
+    /* padding-top: 100%; */
+    border-radius: 22.857142857% 22.857142857% 22.857142857% 0%;
+}
+
+.totalRating{
+    position: absolute ;
+    color: #FFF3F3 ;
+    text-align: center ;
+    font-size: 1.481481481vmin ;
+    font-style: normal ;
+    font-weight: 600 ;
+    line-height: normal ;
+    top: 25.714285714% ;
+    left: 20% ;
+}
+
+.fareInformation{
+    /* border: 1px dotted red; */
+    position: absolute;
+    /* font-size: 13px; */
+    right: 8.904109589%;
+    /* top: 63.6%; */
+    bottom:9.6% ;
+    text-align: right;
+    color: #424242;
+    /* margin: 0; */
+    height: 6.203703704vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.stayerType{
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 1.203703704vmin;
+    /* height: fit-content; */
+}
+
+.charges{
+    font-size: 2.222222222vmin;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* height: fit-content; */
+    /* margin-top: 0px; */
+    /* border: 1px solid red; */
+    /* top: 73.2%; */
+    /* right: 8.904109589%; */
+}
+
+.additionalSurcharge{
+
+    /* position: absolute; */
+    font-size: 1.203703704vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.851851852vmin;
+    /* height: fit-content; */
+    /* border: 1px dotted red; */
+    /* top: 84.4%; */
+    /* right: 8.904109589% */
+    /* margin-top: 0px; */
 }
 
 
