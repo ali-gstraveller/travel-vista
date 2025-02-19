@@ -28,5 +28,8 @@ export default function HotelList() {
             {/* <PaymentSection/>  */}
             </div>
         </div>
+
+
+        
     )
 }
