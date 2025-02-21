@@ -176,9 +176,7 @@ export default function FilterArea() {
                     </div>
                 </div>   
                 <div className={styles.signInAlertBox} > 
-                        <div className={styles.textMessageBox}>
                              <p className={styles.textMessage}>You'll always get our best prices when you're signed in!</p>
-                        </div>
                         <div className={styles.signInButton}>
                             <div className={styles.textBox}>
                                 <p>Sign in</p>
