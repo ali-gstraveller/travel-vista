@@ -716,9 +716,7 @@ input:checked+.slider:before {
         position: relative;
         width: 67.906976744%;
         height: 23.148148148vh;
-        /* border: 1px solid red; */
         float: right;
-
     }  
 
         .hotelOne .hotelInfo .hotelName{
@@ -750,162 +748,151 @@ input:checked+.slider:before {
         position: absolute;
         display: inline-block;
         top: 36.8%;
-        margin-left: 2.739726027%;
-        width: 1.25vmax;
-        height: auto;
+        margin-left: 2.739726027% ;
+        height: 9.6%; 
+        width: auto;
     }
 
-.hotelOne .hotelInfo  .text{
-    position: absolute;
-    color: #424242;
-    font-size: 0.833333333vmax;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    top: 37.6%;
-    margin-left: 6.98630137%;
-    /* border: 1px solid red; */
-    /* left:2.65625vw ; */
-    /* left: 4.722222222vmin; */
-}
+    .hotelOne .hotelInfo  .text{
+        position: absolute;
+        color: #424242;
+        font-size: 1.481481481vmin;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 37.6%;
+        margin-left: 6.98630137%;
+        /* border: 1px solid red; */
+        /* left:2.65625vw ; */
+        /* left: 4.722222222vmin; */
+    }
 
-.hotelOne .hotelInfo .roomType{
-    position: absolute;
-    color: #424242;
-    font-size: 1.203703704vmin;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    top: 52.4%;
-    margin-left: 2.739726027%;
-}
+    .hotelOne .hotelInfo .roomType{
+        position: absolute;
+        color: #424242;
+        font-size: 1.203703704vmin;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        top: 52.4%;
+        margin-left: 2.739726027%;
+    }
 
-.hotelOne .hotelInfo .bedTypes{
-    position: absolute;
-    color: #424242;
-    font-size: 1.111111111vmin;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    top: 60%;
-    margin-left: 2.739726027%;
-}
+    .hotelOne .hotelInfo .bedTypes{
+        position: absolute;
+        color: #424242;
+        font-size: 1.111111111vmin;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        top: 58.8%;
+        left: 2.739726027%;
+    }
 
-.hotelOne .hotelInfo .impPoints {
-    position: absolute;
-    top: 69.6%;
-    color: #FEBE43;
-    font-size: 1.111111111vmin;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 3.698630137%;
-    list-style-position: inside;
-    /* border: 1px solid green; */
-}
+    .hotelOne .hotelInfo .impPoints {
+        position: absolute;
+        top: 69.6%;
+        color: #FEBE43;
+        font-size: 1.111111111vmin;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        left: 3.698630137%;
+        list-style-position: inside;
+        /* border: 1px solid green; */
+    }
 
-.ratingComment{
-    position: absolute;
-    color: #424242;
-    font-size: 1.203703704vmin;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    /* left: 85.890410959%; */
-    right: 9.452054795%;
-    top: 9.2%;
+    .ratingComment{
+        position: absolute;
+        color: #424242;
+        font-size: 1.203703704vmin;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        /* left: 85.890410959%; */
+        right: 9.452054795%;
+        top: 9.2%;
+    }
 
-}
+    .totalReviews{
+        position: absolute;
+        font-size: 1.018518519vmin;
+        color: #424242;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        right: 8.904109589%;
+        top:15.2% ;
+    }
 
-.totalReviews{
-    position: absolute;
-    font-size: 1.018518519vmin;
-    color: #424242;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    right: 8.904109589%;
-    /* left: 82.602739726%; */
-    top:16.4% ;
-}
+    .ratingBox{
+        position: absolute;
+        background: #006E5E;
+        height:14% ;
+        left: 92.465753425%;
+        top: 8%;
+        aspect-ratio: 1 / 1;
+        /* border: 1px solid red; */
+        /* padding-top: 100%; */
+        border-radius: 22.857142857% 22.857142857% 22.857142857% 0%;
+    }
 
-.ratingBox{
-    position: absolute;
-    background: #006E5E;
-    width: 3.240740741vmin;
-    left: 92.465753425%;
-    top: 8%;
-    aspect-ratio: 1 / 1;
-    /* border: 1px solid red; */
-    /* padding-top: 100%; */
-    border-radius: 22.857142857% 22.857142857% 22.857142857% 0%;
-}
+        .totalRating{
+            position: absolute ;
+            color: #FFF3F3 ;
+            text-align: center ;
+            font-size: 1.481481481vmin ;
+            font-style: normal ;
+            font-weight: 600 ;
+            line-height: normal ;
+            top: 25.714285714% ;
+            left: 20% ;
+        }
 
-.totalRating{
-    position: absolute ;
-    color: #FFF3F3 ;
-    text-align: center ;
-    font-size: 1.481481481vmin ;
-    font-style: normal ;
-    font-weight: 600 ;
-    line-height: normal ;
-    top: 25.714285714% ;
-    left: 20% ;
-}
+    .stayerType{
 
-.fareInformation{
-    /* border: 1px dotted red; */
-    position: absolute;
-    /* font-size: 13px; */
-    right: 8.904109589%;
-    /* top: 63.6%; */
-    bottom:10.4% ;
-    text-align: right;
-    color: #424242;
-    /* margin: 0; */
-    /* height: 6.203703704vh; */
-    /* display: flex;
-    flex-direction: column;
-    align-content: space-between; */
-}
+        position: absolute;
+        color: #424242;
+        font-style: normal;
+        right: 2.739726027%;
+        bottom: 30%;
+        font-weight: 400;
+        line-height: normal;
+        font-size: 1.203703704vmin;
+        /* height: fit-content; */
+        
+    }
 
-.stayerType{
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-size: 1.203703704vmin;
-    /* height: fit-content; */
-}
+    .charges{
+        position: absolute;
+        color: #424242;
+        font-style: normal;
+        right: 2.739726027%;
+        bottom: 18.4%;
+        font-size: 2.222222222vmin;
+        font-weight: 600;
+        line-height: normal;
+        /* height: fit-content; */
+        /* margin-top: 0px; */
+        /* top: 73.2%; */
+        /* right: 8.904109589%; */
+    }
 
-.charges{
-    font-size: 2.222222222vmin;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    /* height: fit-content; */
-    /* margin-top: 0px; */
-    /* border: 1px solid red; */
-    /* top: 73.2%; */
-    /* right: 8.904109589%; */
-}
+    .additionalSurcharge{
 
-.additionalSurcharge{
+        position: absolute;
+        color: #424242;
+        font-style: normal;
+        right: 2.739726027%;
+        bottom:10.4% ;
+        font-size: 1.203703704vmin;
+        font-weight: 400;
+        line-height: 1.851851852vmin;
+    }
 
-    /* position: absolute; */
-    font-size: 1.203703704vmin;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.851851852vmin;
-    /* height: fit-content; */
-    /* border: 1px dotted red; */
-    /* top: 84.4%; */
-    /* right: 8.904109589% */
-    /* margin-top: 0px; */
-}
-
-.hotelOne ~.hotelOne{
+.hotelOne ~.hotelOne{   
 
     margin-top: 1.851851852vh;
-
 }
 
 
@@ -1024,5 +1011,68 @@ input:checked+.slider:before {
         width: 12.142857143%;   
         height: auto;
     }
+
+    .hotelList {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-top: 24px;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .hotelList .InfoPane .button{
+        display: none;
+    }
+
+
+    .hotelList .InfoPane{
+        /* border  : 1px solid red; */
+        width:100% ;
+        height: auto;
+    }
+
+    .hotelList .InfoPane .textArea{
+        /* width: fit-content; */
+        height: auto;
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hotelList .InfoPane .textArea p:nth-child(1){
+
+        font-size: 3.636363636vw; 
+        text-align: center;
+        width: 100%;
+        /* border: 1px solid green; */
+        /* margin-right: auto; */
+    }
+
+    .hotelList .InfoPane .textArea p:nth-child(2){
+        /* border: 1px solid green; */
+        font-size: 3.181818182vw; 
+        /* border: 1px solid red; */
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hotelList .signInAlertBox{
+        display: none;
+    }
+
+    .hotelOne{
+        margin-top: 22px;
+        border-radius: 0;
+        border: 0;
+        width: 90.909090909vw;
+        height: auto;
+        border: 0.4px solid gray  ;
+        margin-left: 4.545454545vw;
+        margin-right: 4.545454545vw;
+    }
+
 
 }
