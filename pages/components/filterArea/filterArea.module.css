@@ -660,7 +660,7 @@ input:checked+.slider:before {
 .hotelOne{
     margin-top: 2.777777778vh;
     border-radius: 0.925925926vmin;
-    border: 0.092592593px solid #D9D9D9;
+    border: 0.092592593vh solid #D9D9D9;
     height: 23.333333333vh;
     width: 56.09375vw;
 }
@@ -895,8 +895,6 @@ input:checked+.slider:before {
     margin-top: 1.851851852vh;
 }
 
-
-
 /* filter and sort buttons hided on mobile */
 
 @media (min-width:600px){
@@ -1068,11 +1066,230 @@ input:checked+.slider:before {
         border-radius: 0;
         border: 0;
         width: 90.909090909vw;
-        height: auto;
-        border: 0.4px solid gray  ;
+        height: 300px;
+        border: 0.227272727vw solid gray  ;
+        border-radius: 2.272727273vw;
         margin-left: 4.545454545vw;
         margin-right: 4.545454545vw;
     }
 
+        .imageContainer{
+            position: relative;
+            /* border: 1px solid red; */
+            width: 45%;
+            height: 300px;
+            float: left;
+        }
+
+            .hotelPhoto{
+                position: absolute;
+                width: 40.909090909vw;
+                height: 300px;
+                border-radius: 2.272727273vw 0px 0px 2.272727273vw;
+                object-fit: cover;
+            }
+
+            .svgContainer{
+                position: relative;
+                /* right: 6.666666667%; */
+                top: 10px;
+                left: 73.888888889%;
+                width: 7.954545455vw;
+                /* height: 35px; */
+                height: 7.954545455vw;
+                /* border: 1px solid orange; */
+            }
+
+                .imageContainer svg:nth-child(2){
+                    fill: #006E5E;
+                    position: absolute;
+                    width: 5.454545455vw;
+                    height: 5.454545455vw ;
+                    top: 20%;
+                    left: 14.285714286%;    
+                }
+
+    .hotelOne .hotelInfo {
+        /* position: absolute; */
+        position: relative;
+        width: 55%;
+        height: 300px;;
+        float: right;
+    } 
+
+        .hotelOne .hotelInfo .hotelName{
+         
+            color: #424242;
+            position: absolute;
+            top:20px;
+            left: 5.454545455%;
+            width: fit-content;
+            font-size: 3.636363636vw ;
+            line-height: normal;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .hotelOne .hotelInfo .location{
+            position: absolute;
+            color: #424242;
+            left: 5.454545455%;
+            font-size: 3.636363636vw ;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: fit-content;
+            /* border: 1px solid red; */
+            top: 15%;
+        }
+
+    .hotelOne .hotelInfo  .icon{
+        position: absolute;
+        display: inline-block;
+        top: 24.666666667%;
+        margin-left: 5.454545455% ;
+        width: 10.909090909%;
+        height: auto; 
+    }
+
+    .hotelOne .hotelInfo  .text{
+        position: absolute;
+        color: #424242;
+        font-size: 3.409090909vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 25.666666667%;
+        margin-left: 18.695652174%;
+        /* border: 1px solid red; */
+        /* left:2.65625vw ; */
+        /* left: 4.722222222vmin; */
+    }
+
+    .hotelOne .hotelInfo .roomType{
+        position: absolute;
+        color: #424242;
+        font-size: 2.954545455vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        top: 35.666666667%;
+        margin-left: 5.454545455% ;
+    }
+
+    .hotelOne .hotelInfo .bedTypes{
+        position: absolute;
+        color: #424242;
+        font-size: 2.727272727vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        top: 41%;
+        left: 5.454545455% ;
+    }
+
+    .hotelOne .hotelInfo .impPoints {
+        position: absolute;
+        top: 47.666666667%;
+        color: #FEBE43;
+        font-size: 2.272727273vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        left: 8.636363636%;
+        list-style-position: inside;
+    }
+
+    .ratingComment{
+        position: absolute;
+        color: #424242;
+        font-size: 2.727272727vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        /* left: 85.890410959%; */
+        right: 25.454545455%;
+        top: 64%;
+    }
+
+    .totalReviews{
+
+        position: absolute;
+        font-size: 2.272727273vw;
+        color: #424242;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        right: 25.454545455%;
+        top: 68.666666667% ;
+
+    }
+
+    .ratingBox{
+        position: absolute;
+        background: #006E5E;
+        width: 6.818181818vw;
+        height: auto;
+
+        /* right: 7.272727273% ; */
+        left: 79.090909091%;
+        top: 63%;
+        aspect-ratio: 1 / 1;
+        /* border: 1px solid red; */
+        /* padding-top: 100%; */
+        border-radius: 26.666666667% 26.666666667% 26.666666667% 0%;
+    }
+
+        .totalRating{
+            position: absolute ;
+            color: #FFF3F3 ;
+            text-align: center ;
+            font-size: 3.181818182vw ;
+            font-style: normal ;
+            font-weight: 600 ;
+            line-height: normal ;
+            top: 20% ;
+            left: 20% ;
+            /* border: 1px solid white; */
+            height: 56.666666667%;
+            width: 63.333333333%;
+        }
+    
+        .stayerType{
+
+            position: absolute ;
+            color: #424242 ;
+            font-style: normal ;
+            right: 6.363636364% ;
+            font-weight: 400 ;
+            line-height: normal ;
+            font-size: 2.5vw;
+            top: 76.333333333% ;
+
+        }
+    
+        .charges{
+
+            position: absolute;
+            color: #424242;
+            font-style: normal;
+            right: 6.363636364% ;
+            top: 80.666666667%;
+            font-size: 4.545454545vw;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+
+        .additionalSurcharge{
+
+            right: 6.363636364% ;
+            /* top: 89.666666667%; */
+            font-size: 2.5vw;
+            bottom: auto;
+            top: 89.666666667%;
+            line-height: normal;
+
+        }
 
 }
