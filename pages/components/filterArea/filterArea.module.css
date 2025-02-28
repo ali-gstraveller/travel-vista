@@ -658,11 +658,11 @@ input:checked+.slider:before {
                                 /* hotel Display Section */
 
 .hotelOne{
-    margin-top: 2.777777778vh;
-    border-radius: 0.925925926vmin;
-    border: 0.092592593vh solid #D9D9D9;
-    height: 23.333333333vh;
-    width: 56.09375vw;
+    margin-top: 2.777777778vh ;
+    border-radius: 0.925925926vmin ;
+    border: 0.092592593vh solid #D9D9D9 ;
+    height: 23.333333333vh ;
+    width: 56.09375vw ;
 }
 
     .imageContainer{
@@ -673,7 +673,7 @@ input:checked+.slider:before {
         float: left;
     }
 
-        .hotelPhoto{
+        .hotelPhoto {
             position: absolute;
             width: 17.96875vw;
             height: 100%;
@@ -767,7 +767,7 @@ input:checked+.slider:before {
         /* left: 4.722222222vmin; */
     }
 
-    .hotelOne .hotelInfo .roomType{
+    .hotelOne .hotelInfo .roomType {
         position: absolute;
         color: #424242;
         font-size: 1.203703704vmin;
@@ -802,7 +802,7 @@ input:checked+.slider:before {
         /* border: 1px solid green; */
     }
 
-    .ratingComment{
+    .ratingComment {
         position: absolute;
         color: #424242;
         font-size: 1.203703704vmin;
@@ -1062,20 +1062,20 @@ input:checked+.slider:before {
     }
 
     .hotelOne{
-        margin-top: 22px;
-        border-radius: 0;
-        border: 0;
-        width: 90.909090909vw;
-        height: 300px;
-        border: 0.227272727vw solid gray  ;
-        border-radius: 2.272727273vw;
-        margin-left: 4.545454545vw;
-        margin-right: 4.545454545vw;
+        margin-top: 22px ;
+        border-radius: 0 ;
+        border: 0 ;
+        width: 90.909090909vw ;
+        height: 300px ;
+        /* border: 0.227272727vw solid gray  ; */
+        border-radius: 2.5%;
+        margin-left: 4.318181818vw;
+        margin-right: 4.318181818vw;
     }
 
         .imageContainer{
             position: relative;
-            /* border: 1px solid red; */
+            /* border-right: 1px solid red; */
             width: 45%;
             height: 300px;
             float: left;
@@ -1085,7 +1085,7 @@ input:checked+.slider:before {
                 position: absolute;
                 width: 40.909090909vw;
                 height: 300px;
-                border-radius: 2.272727273vw 0px 0px 2.272727273vw;
+                border-radius: 2.272727273vmin  0 0 2.272727273vmin;
                 object-fit: cover;
             }
 
@@ -1113,21 +1113,27 @@ input:checked+.slider:before {
         /* position: absolute; */
         position: relative;
         width: 55%;
-        height: 300px;;
+        height: 300px;
         float: right;
+        /* border: 0.000925926vmin solid gray ; */
+        border-top: 0.000925926vmin solid gray;
+        border-bottom: 0.000925926vmin solid gray;
+        border-right: 0.000925926vmin solid gray;
+        border-radius: 0 2.272727273vmin 2.272727273vmin 0 ;
     } 
 
         .hotelOne .hotelInfo .hotelName{
          
             color: #424242;
             position: absolute;
-            top:20px;
-            left: 5.454545455%;
+            top:20px ;
+            left: 5.454545455% ;
             width: fit-content;
             font-size: 3.636363636vw ;
             line-height: normal;
             font-style: normal;
             font-weight: 600;
+            /* border: 1px solid orange; */
         }
 
         .hotelOne .hotelInfo .location{
