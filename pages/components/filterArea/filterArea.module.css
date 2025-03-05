@@ -535,7 +535,7 @@ input:checked+.slider:before {
             }
 
     .hotelList .InfoPane .button{
-        width: 15.625vw;
+        width: 15.625vw;    
         height: 5.555555556vh;
         border: 1px solid #D9D9D9;
         border-radius: 0.925925926vmin;
@@ -654,15 +654,16 @@ input:checked+.slider:before {
                 /* right: 5.555555556%; */
             }
 
-
                                 /* hotel Display Section */
 
-.hotelOne{
+.hotelOne {
+
     margin-top: 2.777777778vh ;
     border-radius: 0.925925926vmin ;
     border: 0.092592593vh solid #D9D9D9 ;
     height: 23.333333333vh ;
     width: 56.09375vw ;
+
 }
 
     .imageContainer{
@@ -681,15 +682,15 @@ input:checked+.slider:before {
         }
 
         .svgContainer{
-            position: relative;
+            position: relative ;
             /* position: absolute; */
             /* border: 1px solid purple; */
             /* right:    2.898550725%; */
-            right: 10%;
-            top: 4%;
-            left: 86.956521739%;
-            width: 1.822916667vw;
-            height: 1.822916667vw;
+            right: 10% ;
+            top: 4% ;
+            left: 86.956521739% ;
+            width: 1.822916667vw ;
+            height: 1.822916667vw ; 
         }
 
             .imageContainer svg:nth-child(1){
@@ -892,7 +893,8 @@ input:checked+.slider:before {
 
 .hotelOne ~.hotelOne{   
 
-    margin-top: 1.851851852vh;
+    margin-top: 1.851851852vh ;
+
 }
 
 /* filter and sort buttons hided on mobile */
@@ -1061,7 +1063,7 @@ input:checked+.slider:before {
         display: none;
     }
 
-    .hotelOne{
+    .hotelOne {
         margin-top: 22px ;
         border-radius: 0 ;
         border: 0 ;
@@ -1082,11 +1084,12 @@ input:checked+.slider:before {
         }
 
             .hotelPhoto{
-                position: absolute;
-                width: 40.909090909vw;
-                height: 300px;
-                border-radius: 2.272727273vmin  0 0 2.272727273vmin;
-                object-fit: cover;
+                position: absolute ;
+                /* width: 40.909090909vw; */
+                width: 100% ;
+                height: 300px ;
+                border-radius: 2.272727273vmin  0 0 2.272727273vmin ;                
+                object-fit: cover ;
             }
 
             .svgContainer{
@@ -1105,8 +1108,8 @@ input:checked+.slider:before {
                     position: absolute;
                     width: 5.454545455vw;
                     height: 5.454545455vw ;
-                    top: 20%;
-                    left: 14.285714286%;    
+                    top: 20% ;
+                    left: 14.285714286% ;    
                 }
 
     .hotelOne .hotelInfo {
@@ -1131,8 +1134,8 @@ input:checked+.slider:before {
             width: fit-content;
             font-size: 3.636363636vw ;
             line-height: normal;
-            font-style: normal;
-            font-weight: 600;
+            font-style: normal ;
+            font-weight: 600 ;
             /* border: 1px solid orange; */
         }
 
@@ -1154,19 +1157,21 @@ input:checked+.slider:before {
         display: inline-block;
         top: 24.666666667%;
         margin-left: 5.454545455% ;
-        width: 10.909090909%;
+        width: 10.909090909%  ;
         height: auto; 
     }
 
     .hotelOne .hotelInfo  .text{
+
         position: absolute;
         color: #424242;
         font-size: 3.409090909vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        top: 25.666666667%;
-        margin-left: 18.695652174%;
+        top: 25.666666667% ;
+        margin-left: 19.545454545% ;
+
         /* border: 1px solid red; */
         /* left:2.65625vw ; */
         /* left: 4.722222222vmin; */
@@ -1195,38 +1200,40 @@ input:checked+.slider:before {
     }
 
     .hotelOne .hotelInfo .impPoints {
-        position: absolute;
-        top: 47.666666667%;
-        color: #FEBE43;
-        font-size: 2.272727273vw;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        left: 8.636363636%;
-        list-style-position: inside;
+
+        position: absolute ;
+        top: 51% ;
+        color: #FEBE43 ;
+        font-size: 2.727272727vw ;
+        font-style: normal ;
+        font-weight: 600 ;
+        line-height: normal ;
+        left: 8.636363636% ;
+        list-style-position: inside ;
+
     }
 
     .ratingComment{
-        position: absolute;
-        color: #424242;
-        font-size: 2.727272727vw;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+        position: absolute ;
+        color: #424242 ;
+        font-size: 2.727272727vw ;
+        font-style: normal ;
+        font-weight: 600 ;
+        line-height: normal ;
         /* left: 85.890410959%; */
-        right: 25.454545455%;
-        top: 64%;
+        right: 25.454545455% ;
+        top: 64% ;
     }
 
     .totalReviews{
 
-        position: absolute;
-        font-size: 2.272727273vw;
+        position: absolute ;
+        font-size: 2.272727273vw ;
         color: #424242;
-        font-style: normal;
-        font-weight: 400;
+        font-style: normal ;
+        font-weight: 400 ;
         line-height: normal;
-        right: 25.454545455%;
+        right: 25.454545455% ;
         top: 68.666666667% ;
 
     }
@@ -1236,7 +1243,6 @@ input:checked+.slider:before {
         background: #006E5E;
         width: 6.818181818vw;
         height: auto;
-
         /* right: 7.272727273% ; */
         left: 79.090909091%;
         top: 63%;
@@ -1275,7 +1281,6 @@ input:checked+.slider:before {
         }
     
         .charges{
-
             position: absolute;
             color: #424242;
             font-style: normal;
@@ -1284,18 +1289,15 @@ input:checked+.slider:before {
             font-size: 4.545454545vw;
             font-weight: 600;
             line-height: normal;
-
         }
 
         .additionalSurcharge{
-
             right: 6.363636364% ;
             /* top: 89.666666667%; */
             font-size: 2.5vw;
             bottom: auto;
             top: 89.666666667%;
             line-height: normal;
-
         }
 
 }
