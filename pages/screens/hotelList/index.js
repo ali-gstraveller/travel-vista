@@ -20,7 +20,7 @@ export default function HotelList() {
         <div>
             <div className={inter.className}>
 
-            {/* <Header/> */}
+            <Header/>
             <HotelSearchContinue/>
             <FilterArea/>
              {/* <Footer/> */}
