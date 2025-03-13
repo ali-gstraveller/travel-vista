@@ -1,0 +1,90 @@
+.outerContainer{
+        margin-top: 4.62962963vh;
+}
+
+.leftPane{
+        margin-left: 8.33%;
+        /* border: 1px solid red; */
+        width: 64.81%;
+        display: inline-block;
+}
+
+.rightPane{
+    margin-left: 1.16% ;
+    border: 1px solid green ;
+    width: 17.24% ;
+    display: inline-block ;
+    margin-right: 8.33% ;
+
+}
+
+.ImageSection{
+    height: 28.240740741vh;
+}
+
+.firstImage{
+
+    width: 59.821428571%;
+    height: 100%;
+    display: inline-block;
+    float: left ;
+    border-radius: 0.925925926vmin ;
+}
+
+.secondImage{
+
+    width: 19.642857143%;
+    height: 49.180327869%;
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* vertical-align: top; */
+    /* float: left; */
+    border-radius: 0.925925926vmin ;
+    margin-left:0.260416667vw ;
+}
+
+.thirdImage{
+    /* border: 1px solid red; */
+    width:  19.642857143%;
+    height: 49.180327869%    ;
+    display: inline-block;
+    /* float: left; */
+    /* vertical-align: top; */
+    border-radius: 0.925925926vmin ;
+    margin-left:0.260416667vw ;
+}
+
+.fourthImage{
+    width:  19.642857143%;
+    height: 49.180327869%    ;
+    display: inline-block;
+    /* float: left; */
+    /* border: 1px solid red; */
+    border-radius: 0.925925926vmin ;
+    margin-left:0.260416667vw ;
+    /* margin-top: 0.462962963vh ; */
+}
+
+
+.fifthImage{
+
+    /* border: 1px solid red; */
+    width:  19.642857143%;
+    height: 49.180327869%    ;
+    display: inline-block;
+    /* vertical-align: top; */
+    /* float: left; */
+    border-radius: 0.925925926vmin ;
+    margin-left:0.260416667vw ;
+}
+
+
+
+
+
+
+
+
+
+
+
