@@ -1,90 +1,164 @@
-.outerContainer{
-        margin-top: 4.62962963vh;
+.outerContainer {
+  margin-top: 4.62962963vh;
 }
 
-.leftPane{
-        margin-left: 8.33%;
-        /* border: 1px solid red; */
-        width: 64.81%;
-        display: inline-block;
+.leftPane {
+  margin-left: 8.33%;
+  /* border: 1px solid red; */
+  width: 64.81%;
+  display: inline-block;
 }
 
-.rightPane{
-    margin-left: 1.16% ;
-    border: 1px solid green ;
-    width: 17.24% ;
-    display: inline-block ;
-    margin-right: 8.33% ;
-
+.rightPane {
+  margin-left: 1.16%;
+  border: 1px solid green;
+  width: 17.24%;
+  display: inline-block;
+  margin-right: 8.33%;
 }
 
-.ImageSection{
-    height: 28.240740741vh;
+.ImageSection {
+  height: 28.240740741vh;
 }
 
-.firstImage{
-
-    width: 59.821428571%;
-    height: 100%;
-    display: inline-block;
-    float: left ;
-    border-radius: 0.925925926vmin ;
+.firstImage {
+  position: relative;
+  width: 59.821428571%;
+  height: 100%;
+  float: left;
 }
 
-.secondImage{
-
-    width: 19.642857143%;
-    height: 49.180327869%;
-    display: inline-block;
-    /* border: 1px solid red; */
-    /* vertical-align: top; */
-    /* float: left; */
-    border-radius: 0.925925926vmin ;
-    margin-left:0.260416667vw ;
+.firstImageImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.925925926vmin;
 }
 
-.thirdImage{
-    /* border: 1px solid red; */
-    width:  19.642857143%;
-    height: 49.180327869%    ;
-    display: inline-block;
-    /* float: left; */
-    /* vertical-align: top; */
-    border-radius: 0.925925926vmin ;
-    margin-left:0.260416667vw ;
+.firstImage .iconDiv {
+  margin-top: 1.851851852vmin;
+  margin-left: 1.851851852vmin;
+  position: absolute;
+  background-color: #fff;
+  width: 5.787037037vmax;
+  border-radius: 9.259259259vmin;
+  height: 13.114754098%;
+  border: 0.092592593vmin solid #d9d9d9;
 }
 
-.fourthImage{
-    width:  19.642857143%;
-    height: 49.180327869%    ;
-    display: inline-block;
-    /* float: left; */
-    /* border: 1px solid red; */
-    border-radius: 0.925925926vmin ;
-    margin-left:0.260416667vw ;
-    /* margin-top: 0.462962963vh ; */
+.firstImage .icon {
+  margin-top: 0.555555556vmin;
+  margin-left: 0.868055556vmax;
+  width: 2.222222222vmin;
+  height: 2.222222222vmin;
 }
 
-
-.fifthImage{
-
-    /* border: 1px solid red; */
-    width:  19.642857143%;
-    height: 49.180327869%    ;
-    display: inline-block;
-    /* vertical-align: top; */
-    /* float: left; */
-    border-radius: 0.925925926vmin ;
-    margin-left:0.260416667vw ;
+.firstImage .iconDiv2 {
+  margin-top: 1.851851852vmin;
+  margin-left: 7.523148148vmax;
+  position: absolute;
+  background-color: #fff;
+  width: 5.787037037vmax;
+  border-radius: 9.259259259vmin;
+  height: 13.114754098%;
+  border: 0.092592593vmin solid #d9d9d9;
 }
 
+.firstImage .icon2 {
+  margin-top: 0.555555556vmin;
+  margin-left: 0.868055556vmax;
+  width: 2.222222222vmin;
+  height: 2.222222222vmin;
+}
 
+.secondImage {
+  width: 19.642857143%;
+  height: 49.180327869%;
+  display: inline-block;
+  /* border: 1px solid red; */
+  /* vertical-align: top; */
+  /* float: left; */
+  border-radius: 0.925925926vmin;
+  margin-left: 0.260416667vw;
+}
 
+.thirdImage {
+  /* border: 1px solid red; */
+  width: 19.642857143%;
+  height: 49.180327869%;
+  display: inline-block;
+  /* float: left; */
+  /* vertical-align: top; */
+  border-radius: 0.925925926vmin;
+  margin-left: 0.260416667vw;
+}
 
+.fourthImage {
+  width: 19.642857143%;
+  height: 49.180327869%;
+  display: inline-block;
+  /* float: left; */
+  /* border: 1px solid red; */
+  border-radius: 0.925925926vmin;
+  margin-left: 0.260416667vw;
+  /* margin-top: 0.462962963vh ; */
+}
 
+.fifthImage {
+  /* border: 1px solid red; */
+  width: 19.642857143%;
+  height: 49.180327869%;
+  display: inline-block;
+  /* vertical-align: top; */
+  /* float: left; */
+  border-radius: 0.925925926vmin;
+  margin-left: 0.260416667vw;
+}
 
+.hotelInfo {
+  margin-top: 3.703703704%;
+  display: block;
+  /* border: 1px solid red; */
+}
 
+.hotelName {
+  color: #191e3b;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 2.777777778vmin;
+  display: inline-block;
+  /* border: 1px solid blue; */
+  width: 39.525462963vw;
+  /* float: left; */
+}
 
+.roomSelectButton {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #006e5e;
+  height: 4.62962963vmin;
+  width: 11.458333333vmax;
+  border-radius: 0.925925926vmin;
+  float: right;
+  border: none;
+}
 
+.hotelOneLiner{
 
+    margin-top: 1.944444444vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #191E3B;
+    font-size: 1.851851852vmin;
+}
 
+.ammenities{
+
+    margin-top: 1.851851852%;
+    color: yellow;   
+
+}

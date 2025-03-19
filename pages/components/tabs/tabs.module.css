@@ -51,13 +51,15 @@
         }
     
 
-        .button{
-            /* flex-basis: 300px ; */
-            width: auto;
-            font-size: 3.181818182vmin ;
-            padding-right:3.409090909% ;
-            padding-left:3.409090909% ;
-            }
+    .button{
+        
+        /* flex-basis: 300px ; */
+        width: auto;
+        font-size: 3.181818182vmin ;
+        padding-right:3.409090909% ;
+        padding-left:3.409090909% ;
+
+        }
 
 }
 

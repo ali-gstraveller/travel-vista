@@ -29,3 +29,11 @@ body {
   height: 15px;
   width: 15px;
 }
+
+.item {
+  --black: yellow;
+}
+
+.item__title {
+  padding: var(--element-pad);
+}

@@ -16,7 +16,7 @@ export default function Tabs() {
                     className={`${styles.button} ${activeButton === id && styles.active }`}
                     >
                   {item}
-            </button>
+                    </button>
                 ))}
             </div>
           </div> 

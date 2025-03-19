@@ -23,9 +23,9 @@ export default function HotelList() {
             <Header/>
             <HotelSearchContinue/>
             <FilterArea/>
-             {/* <Footer/> */}
-            {/* <TextArea/> */}
-            {/* <PaymentSection/>  */}
+             <Footer/>
+            <TextArea/>
+            <PaymentSection/> 
             </div>
         </div>
 
