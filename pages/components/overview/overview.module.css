@@ -11,7 +11,7 @@
 
 .rightPane {
   margin-left: 1.16%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 17.24%;
   display: inline-block;
   margin-right: 8.33%;
@@ -146,19 +146,334 @@
   border: none;
 }
 
-.hotelOneLiner{
+.hotelOneLiner {
+  margin-top: 1.944444444vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #191e3b;
+  font-size: 1.851851852vmin;
+  /* border: 1px solid red ; */
+}
 
-    margin-top: 1.944444444vmin;
+.ammenities {
+  margin-top: 1.851851852%;
+  color: yellow;
+}
+
+.tick {
+  color: #febe43;
+  display: inline;
+  font-size: 1.481481481vmin;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.tick2 {
+  /* margin-left: 86px; */
+  margin-left: 7.678571429%;
+  font-size: 1.481481481vmin;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.oneLiner {
+  color: #febe43;
+  display: inline;
+  font-size: 1.481481481vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ammenitiesSection {
+  margin-top: 1.851851852vmin;
+}
+
+.popularFacilities {
+  margin-top: 3.703703704vmin;
+  font-size: 1.481481481vmin;
+}
+
+.popularFacilities .heading {
+  font-size: 1.851851852vmin;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.swim {
+  color: #006e5e;
+  /* height: 16px; */
+  height: 1.851851852vh;
+  width: 1.851851852vh;
+  margin: 0.260416667vw;
+}
+
+.wifi {
+  color: #006e5e;
+  height: 1.481481481vh;
+  width: 1.481481481vh;
+  margin: 0.260416667vw;
+
+  /* margin-left: 1.785714286%; */
+}
+
+.oneLinerFacility {
+  display: inline;
+  font-size: 1.481481481vh;
+}
+
+.iconHolder {
+  margin-top: 1.851851852vmin;
+  line-height: 3.703703704vh;
+  /* width: 79.107142857%;   */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* gap: 0px 30px; */
+}
+
+.iconHolder div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-width: 19%;
+}
+
+@media (max-width: 600px) {
+  .ImageSection {
+    display: none;
+  }
+  .roomSelectButton {
+    display: none;
+  }
+  .leftPane {
+    width: 86.136363636%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    display: block;
+  }
+  /* .rightPane */
+
+  .hotelName {
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  .hotelOneLiner {
+    font-size: 3.409090909vw;
+    /* font-size: 2.954545455vw; */
+  }
+
+  .tick {
+    font-size: 2.954545455vw;
+  }
+
+  .oneLiner {
+    font-size: 2.954545455vw;
+  }
+
+  .popularFacilities .heading {
+    font-size: 3.6364vw;
+    color: #191e3b;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .iconHolder div {
+    /* min-width:  13%; */
+  }
+  .iconHolder div:nth-child(n + 7) {
+    display: none;
+  }
+
+  .oneLinerFacility {
+    font-size: 2.9545vw;
+    font-weight: 300;
+  }
+
+  .swim,
+  .wifi {
+    width: 2.9545vw;
+    height: 2.9545vw;
+  }
+
+  .iconHolder {
+    margin-top: 1.851851852vmin;
+    line-height: 3.703703704vh;
+    /* width: 79.107142857%;   */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 0px 30px; */
+  }
+
+  .ratingSection {
+    margin-top: 5.2273vw;
+    border: 0.2273vw solid #d9d9d9;
+    border-radius: 2.2727vw;
+    display: flex;
+    height: 13.6364vw;
+    width: 90.9091vw;
+    align-items: center;
+  }
+
+  .ratingBox {
+    border-radius: 1.8182vw;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 10.2273vw;
+    height: 10.2273vw;
+    background: #006e5e;
+    margin-left: 2.2727vw;
+    /* display: inline-block; */
+  }
+
+  .ratingBox p {
+    color: #fff3f3;
+    font-size: 3.6364vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .textRatingBox {
+    /* border: 1px solid red; */
+    /* display: inline-block; */
+    margin-left: 2.2727vw;
+  }
+
+  .textRatingBox > :first-child {
+    color: #191e3b;
+    font-size: 3.6364vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .textRatingBox p:nth-of-type(2) {
+    color: #febe43;
+    font-size: 2.7273vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .mapSection {
+    margin-top: 16px;
+    /* border: 1px solid red; */
+  }
+
+  .map {
+    border-radius: 2.0455vw;
+    width: 90.9091vw;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .mapSection p:nth-of-type(1) {
+    height: 40px;
+    font-size: 2.9545vw;
+    color: #191e3b;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: #191E3B;
-    font-size: 1.851851852vmin;
-}
+    width: 60vw;
+    margin-left: 3.6364vw;
+    margin-top: 2.2727vw;
+  }
 
-.ammenities{
+  .mapSection p:nth-of-type(2) {
+    color: #febe43;
+    font-size: 2.9545vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 3.6364vw;
+  }
 
-    margin-top: 1.851851852%;
-    color: yellow;   
+  .roomSelectingButton {
+    width: 90.9091vw;
+    height: 10.2273vw;
+    background-color: #006e5e;
+    color: #fff;
+    border-radius: 2.2727vw;
+    margin-top: 2.9545vw;
+    font-size: 3.6364vw;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .signInCarousal {
+    border-radius: 2.2727vw;
+    width: 90.4545vw;
+    height: 31.3636vw;
+    border: 0.2273vw solid #d9d9d9;
+    margin-top: 2.2727vw;
+  }
+
+  .signInCarousal h1 {
+    color: #191e3b;
+    font-size: 4.5455vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.4545vw;
+    margin-left: 8.1818vw;
+    margin-top: 5.4545vw;
+  }
+
+  .signInCarousal p {
+    color: #191e3b;
+    font-size: 2.7273vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.4545vw;
+    margin-left: 8.1818vw;
+  }
+  .accountCreation {
+    margin-left: 22.7273vw;
+    margin-top: 1.5909vw;
+  }
+
+  .accountCreation button:first-child {
+    border: none;
+    background-color: transparent;
+    color: #006e5e;
+    text-align: center;
+    font-size: 2.9545vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .accountCreation button:nth-of-type(2){
+    /* padding: 25px; */
+    width: 18.1818vw ;
+    height: 7.9545vw ;
+    border: 0.2273vw solid #006e5e ;
+    background-color: transparent;
+    border-radius: 2.2727vw;
+    margin-left: 2.7273vw;
+    color: #006e5e;
+    text-align: center;
+    font-size: 2.9545vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+
+  }
+
 
 }

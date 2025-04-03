@@ -1,4 +1,18 @@
 import styles from "./overview.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFan,
+  faHandHoldingHand,
+  faElevator,
+  faUserTie,
+  faCheck,
+  faPersonSwimming,
+  faWifi,
+  faPeopleRoof,
+  faSquareParking,
+  faBusSimple,
+  faBanSmoking,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Image from "next/image";
 
@@ -85,24 +99,97 @@ export default function Overview() {
             Holiday Inn Express Dubai Airport, an IHG Hotel 3.0 star property
           </h1>
           <button className={styles.roomSelectButton}>Select a room</button>
-        </div>
-        <p className={styles.hotelOneLiner}>
-          Dubai hotel in Garhoud with free breakfast and airport shuttle service
-        </p>
-        {/* <p className={styles.ammenities}>
-          {" "}
-          <Image
-            className={styles.tickIcon}
-            src="/check-solid.svg"
-            width={16}
-            height={16}
-          />{" "}
-          Fully refundable{" "}
-        </p> */}
-        {/* <h1> left pane  </h1> */}
 
-        {/* <FontAwesomeIcon icon="fa-solid fa-check" /> */}
-        <i     class="fa-solid fa-user"></i>  
+          <p className={styles.hotelOneLiner}>
+            Dubai hotel in Garhoud with free breakfast and airport shuttle
+            service
+          </p>
+          <div className={styles.ammenitiesSection}>
+            <FontAwesomeIcon className={styles.tick} icon={faCheck} />
+            <p className={styles.oneLiner}> Fully refundable </p>
+            <FontAwesomeIcon
+              className={`${styles.tick2} ${styles.tick}`}
+              icon={faCheck}
+            />  
+            <p className={styles.oneLiner}> Reserve now, pay later </p>
+          </div>
+        </div>
+        <div className={styles.popularFacilities}>
+          <h1 className={styles.heading}> Most popular facilities </h1>
+          <div className={styles.iconHolder}>
+            <div>
+              <FontAwesomeIcon
+                className={styles.swim}
+                icon={faPersonSwimming}
+              />
+              <p className={styles.oneLinerFacility}> Outdoor Swimming Pool </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faWifi} />
+              <p className={styles.oneLinerFacility}> Free Wifi </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faBusSimple} />
+              <p className={styles.oneLinerFacility}> Airport Shuttle </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faPeopleRoof} />
+              <p className={styles.oneLinerFacility}> Family Rooms </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faSquareParking} />
+              <p className={styles.oneLinerFacility}> Free Parking </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faBanSmoking} />
+              <p className={styles.oneLinerFacility}> Non-smoking rooms </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faElevator} />
+              <p className={styles.oneLinerFacility}> Lift </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faUserTie} />
+              <p className={styles.oneLinerFacility}> 24-hour front desk </p>
+            </div>
+            <div>
+              <FontAwesomeIcon
+                className={styles.wifi}
+                icon={faHandHoldingHand}
+              />
+              <p className={styles.oneLinerFacility}> Daily-house keeping </p>
+            </div>
+            <div>
+              <FontAwesomeIcon className={styles.wifi} icon={faFan} />
+              <p className={styles.oneLinerFacility}> Air Conditioning </p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.ratingSection}>
+          <div className={styles.ratingBox}>
+            <p>8.0</p>
+          </div>
+          <div className={styles.textRatingBox}>
+            <p>Very Good </p>
+            <p> See all 1,013 reviews </p>
+          </div>
+        </div>
+        <div className={styles.mapSection}>
+            <Image className={styles.map} src="/map2.png" width={582} height={250}   />
+            <p>
+            Opp. Dubai Int'l Airport Terminal 3, PO Box 35257, Umm Ramool, Dubai
+            </p>
+            <p> View in a map </p>
+        </div>
+            <button className={styles.roomSelectingButton}> Select a room </button>
+            <div className={styles.signInCarousal}>
+                  <h1> Sign in, save money  </h1>
+                  <p> To see if you can save 10% or more at this property, sign in </p>
+            <div className={styles.accountCreation}>
+              <button> Create an account </button>
+              <button>  Sign in  </button>
+            </div>
+            </div>
       </div>
 
       {/* <div className={styles.rightPane}>
